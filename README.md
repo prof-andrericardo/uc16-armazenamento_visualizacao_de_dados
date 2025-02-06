@@ -27,7 +27,6 @@ Este repositório está organizado de acordo com os capítulos e aulas que comp�
 
 - [README.md](./README.md) (Você está aqui)
 - **📖 Capítulo 1**: Introdução ao Armazenamento e Visualização de Dados
-  - [Sumário](capitulo01/README.md)
   - [Aula 01: Contextualização e Relevância](capitulo01/aula01.md)
   - [Aula 02: Conceitos Fundamentais de Banco de Dados](capitulo01/aula02.md)
   - [Aula 03: Introdução ao MySQL](capitulo01/aula03.md)
