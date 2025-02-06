@@ -121,7 +121,6 @@ Exemplo prático:
    - [ ] SSD
 
 2. Qual das opções é um dado estruturado?
-
   - [ ] Uma tabela com informações de clientes
   - [ ] Uma foto de perfil
   - [ ] Um vídeo postado em uma rede social
