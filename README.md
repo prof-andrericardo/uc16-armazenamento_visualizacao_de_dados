@@ -27,14 +27,14 @@ Este repositório está organizado de acordo com os capítulos e aulas que comp�
 
 - [README.md](./README.md) (Você está aqui)
 - **📖 Capítulo 1**: Introdução ao Armazenamento e Visualização de Dados
-  - [README.md](./capitulo01/README.md)
-  - [Aula 01: Contextualização e Relevância](./capitulo01/aula01.md)
-  - [Aula 02: Conceitos Fundamentais de Banco de Dados](./capitulo01/aula02.md)
-  - [Aula 03: Introdução ao MySQL](./capitulo01/aula03.md)
-  - [Aula 04: Criação de Tabelas no MySQL](./capitulo01/aula04.md)
-  - [Aula 05: Inserção de Dados e Consultas Simples](./capitulo01/aula05.md)
-  - [Aula 06: Consolidação e Revisão](./capitulo01/aula06.md)
-  - [Aula 07: Conclusão do Capítulo 1](./capitulo01/aula07.md)
+  - [README.md](capitulo01/README.md)
+  - [Aula 01: Contextualização e Relevância](capitulo01/aula01.md)
+  - [Aula 02: Conceitos Fundamentais de Banco de Dados](capitulo01/aula02.md)
+  - [Aula 03: Introdução ao MySQL](capitulo01/aula03.md)
+  - [Aula 04: Criação de Tabelas no MySQL](capitulo01/aula04.md)
+  - [Aula 05: Inserção de Dados e Consultas Simples](capitulo01/aula05.md)
+  - [Aula 06: Consolidação e Revisão](capitulo01/aula06.md)
+  - [Aula 07: Conclusão do Capítulo 1](capitulo01/aula07.md)
 
 ---
 
