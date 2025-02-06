@@ -69,10 +69,10 @@ Exemplo prático:
 - Dados estruturados em uma tabela:
 
 ```plaintext
-| Nome       | E-mail             | Telefone     |
-|------------|--------------------|--------------|
-| João Silva | joao@email.com    | (11) 99999-9999 |
-| Maria Souza| maria@email.com   | (11) 88888-8888 |
+| Nome       | E-mail             | Telefone        |
+|------------|--------------------|-----------------|
+| João Silva | joao@email.com     | (11) 99999-9999 |
+| Maria Souza| maria@email.com    | (11) 88888-8888 |
 ```
 
 - Dados não estruturados:
@@ -115,17 +115,17 @@ Exemplo prático:
 ### 1.5.2 Questões de Múltipla Escolha
 
 1. Qual é um exemplo de armazenamento em nuvem?
-   - a) HD Externo
-   - b) Google Drive
-   - c) Pendrive
-   - d) SSD
+   - [ ] HD Externo
+   - [ ] Google Drive
+   - [ ] Pendrive
+   - [ ] SSD
 
 2. Qual das opções é um dado estruturado?
 
-- a) Uma tabela com informações de clientes
-- b) Uma foto de perfil
-- c) Um vídeo postado em uma rede social
-- d) Um áudio gravado em um celular
+  - [ ] Uma tabela com informações de clientes
+  - [ ] Uma foto de perfil
+  - [ ] Um vídeo postado em uma rede social
+  - [ ] Um áudio gravado em um celular
 
 ### 1.5.3 Questões de Verdadeiro ou Falso
 
