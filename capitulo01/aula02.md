@@ -83,13 +83,13 @@ São dados parcialmente organizados, com alguma estrutura interna, mas sem um es
 
 Os bancos de dados relacionais são compostos por diversos elementos estruturais, cada um com sua função específica.
 
-🔹 **Tabelas**: Estruturas que armazenam dados organizados em linhas e colunas.
-🔹 **Linhas (Registros)**: Cada linha representa um **registro único** dentro da tabela.
-🔹 **Colunas (Atributos)**: Cada coluna define um **atributo específico** do registro.
-🔹 **Chave Primária**: Identifica **de forma única** cada registro na tabela.
-🔹 **Chave Estrangeira**: Relaciona duas tabelas, garantindo a **integridade referencial**.
-🔹 **Índices**: Melhoram a eficiência das consultas, tornando a recuperação de dados mais rápida.
-🔹 **Relacionamentos**: Conectam tabelas para evitar redundância de dados e melhorar a organização.
+- 🔹 **Tabelas**: Estruturas que armazenam dados organizados em linhas e colunas.
+- 🔹 **Linhas (Registros)**: Cada linha representa um **registro único** dentro da tabela.
+- 🔹 **Colunas (Atributos)**: Cada coluna define um **atributo específico** do registro.
+- 🔹 **Chave Primária**: Identifica **de forma única** cada registro na tabela.
+- 🔹 **Chave Estrangeira**: Relaciona duas tabelas, garantindo a **integridade referencial**.
+- 🔹 **Índices**: Melhoram a eficiência das consultas, tornando a recuperação de dados mais rápida.
+- 🔹 **Relacionamentos**: Conectam tabelas para evitar redundância de dados e melhorar a organização.
 
 📌 **Gráfico Representando um Banco de Dados Relacional:**
 
