@@ -1,210 +1,181 @@
-# Aula 5: Inserção de Dados e Consultas Simples
+# 📚 Aula 5: Manipulação de Dados no MySQL com DML
 
-## 5.1 Frase Motivadora
+## ✨ 5.1 Frase Reflexiva
 
-> “Dados são o novo petróleo, mas apenas quando refinados tornam-se úteis.” — Clive Humby
+> "Os dados por si só não têm valor. O que realmente importa é como os manipulamos para extrair conhecimento e gerar impacto." — Autor Desconhecido
 
-## 5.2 Introdução
+## 🏁 5.2 Introdução
 
-Após criar tabelas, o próximo passo é preenchê-las com dados relevantes e aprender a recuperá-los de forma eficiente. Nesta aula, você aprenderá como inserir informações em tabelas usando o comando `INSERT INTO` e realizar consultas simples utilizando `SELECT`.
+Agora que aprendemos a **criar e estruturar** tabelas utilizando a **DDL (Data Definition Language)**, chegou a hora de manipular os dados dentro dessas tabelas. Para isso, utilizamos a **DML (Data Manipulation Language)**, que permite **inserir, atualizar e remover dados** dentro do banco de dados.
 
-Esses comandos são fundamentais para manipular bancos de dados e acessar informações de forma organizada e prática.
+Nesta aula, você aprenderá: ✅ Como inserir registros em tabelas com `INSERT INTO`.
+ ✅ Como atualizar informações com `UPDATE`.
+ ✅ Como remover registros com `DELETE`.
+ ✅ Como manipular múltiplos registros ao mesmo tempo.
+ ✅ O funcionamento das cláusulas `WHERE`, `SET`, `FROM` e `VALUES`.
+ ✅ Boas práticas para manipulação segura dos dados.
+ ✅ Exercícios práticos para fixação do conteúdo.
 
-------
-
-## 5.3 Desenvolvimento do Conteúdo
-
-### 5.3.1 Inserindo Dados em Tabelas
-
-- **Comando Básico:**
-
-```sql
-INSERT INTO nome_tabela (coluna1, coluna2, ...) VALUES (valor1, valor2, ...);
-```
-
-- **Exemplo:** Inserindo dados na tabela `clientes`:
-
-```sql
-INSERT INTO clientes (id_cliente, nome, email) VALUES (1, 'João Silva', 'joao@email.com');
-INSERT INTO clientes (id_cliente, nome, email) VALUES (2, 'Maria Souza', 'maria@email.com');
-```
-
-- Para inserir vários registros de uma vez:
-
-```sql
-INSERT INTO clientes (id_cliente, nome, email) VALUES 
-(3, 'Carlos Pereira', 'carlos@email.com'),
-(4, 'Ana Lima', 'ana@email.com');
-```
-
-**Erros Comuns ao Inserir Dados:**
-
-- **Erro de chave primária duplicada:** Ao tentar inserir um registro com o mesmo valor da chave primária, o MySQL retorna um erro.
-- **Falta de colunas obrigatórias:** Deixar de especificar valores para colunas que não permitem `NULL`.
-- **Dado incompatível com o tipo da coluna:** Por exemplo, inserir texto em uma coluna do tipo `INT`.
-
-**Como corrigir:**
-
-- Verifique as definições das colunas antes de inserir os dados.
-- Utilize valores únicos para chaves primárias.
-
-### 5.3.2 Consultando Dados com SELECT
-
-- **Comando Básico:**
-
-```sql
-SELECT coluna1, coluna2, ... FROM nome_tabela;
-```
-
-- **Exemplo:** Selecionando todos os dados da tabela `clientes`:
-
-```sql
-SELECT * FROM clientes;
-```
-
-- **Filtrando Resultados:** Utilizando a cláusula `WHERE`:
-
-```sql
-SELECT * FROM clientes WHERE nome = 'João Silva';
-```
-
-- **Ordenando Resultados:** Usando a cláusula `ORDER BY`:
-
-```sql
-SELECT * FROM clientes ORDER BY nome ASC;
-```
-
-- **Limitando Resultados:** Reduzindo o número de linhas retornadas com `LIMIT`:
-
-```sql
-SELECT * FROM clientes LIMIT 2;
-```
-
-### 5.3.3 Funções Agregadas
-
-As funções agregadas permitem realizar cálculos em conjuntos de dados:
-
-- **Contar registros (`COUNT`)**:
-
-```sql
-SELECT COUNT(*) FROM clientes;
-```
-
-- **Calcular médias (`AVG`)**:
-
-```sql
-SELECT AVG(preco) FROM produtos;
-```
-
-- **Somar valores (`SUM`)**:
-
-```sql
-SELECT SUM(estoque) FROM produtos;
-```
-
-Essas funções são úteis para relatórios e análises de dados.
-
-### 5.3.4 Boas Práticas
-
-- Sempre valide os dados antes de inseri-los para evitar erros.
-- Utilize `SELECT *` apenas em casos onde todos os campos sejam realmente necessários.
-- Para consultas específicas, informe os nomes das colunas desejadas.
-- Teste as consultas em pequenos conjuntos de dados antes de aplicá-las em tabelas grandes.
-- Utilize funções agregadas para otimizar relatórios e evitar processamentos desnecessários.
+Ao final, você será capaz de **inserir, atualizar e excluir dados de forma eficiente e segura**, aplicando as melhores práticas na manipulação de dados. 🚀
 
 ------
 
-## 5.4 Atividades Práticas
+## 🔍 5.3 Desenvolvimento do Conteúdo
 
-### 5.4.1 Em Sala de Aula
+### **🛠️ 5.3.1 O que é DML (Data Manipulation Language)?**
 
-1. Inserção de Dados no Terminal:
-   - Insira três registros na tabela `produtos` com os seguintes dados:
+A **DML (Linguagem de Manipulação de Dados)** é um subconjunto do SQL que permite **adicionar, modificar e excluir dados** dentro de tabelas já criadas. Diferente da **DDL**, que altera a estrutura do banco, a **DML modifica apenas os dados armazenados**.
 
-```sql
-INSERT INTO produtos (id_produto, nome_produto, preco, estoque) VALUES 
-(1, 'Notebook', 3500.00, 10),
-(2, 'Smartphone', 2000.00, 20),
-(3, 'Fone de Ouvido', 150.00, 50);
-```
+Os três principais comandos da DML são:
 
-1. Consulta de Dados:
-   - Realize uma consulta para exibir todos os produtos com preço superior a 500:
+| Comando       | Função                                     |
+| ------------- | ------------------------------------------ |
+| `INSERT INTO` | Insere novos registros em uma tabela       |
+| `UPDATE`      | Atualiza dados já existentes em uma tabela |
+| `DELETE`      | Remove registros de uma tabela             |
 
-```sql
-SELECT * FROM produtos WHERE preco > 500;
-```
-
-1. Consulta com Função Agregada:
-   - Liste o total de itens em estoque:
-
-```sql
-SELECT SUM(estoque) AS total_estoque FROM produtos;
-```
-
-### 5.4.2 Para Casa
-
-1. **Prática no Workbench:**
-   - Insira cinco registros na tabela `clientes` e realize consultas para listar os registros onde o nome contém a letra "a".
-2. **Exploração:**
-   - Teste a criação de uma consulta que liste os produtos com estoque abaixo de 20.
-   - Use a função `COUNT` para contar quantos produtos têm estoque menor que 20.
+Esses comandos são amplamente utilizados em qualquer aplicação que armazene e manipule informações, desde **sistemas escolares até plataformas de e-commerce**.
 
 ------
 
-## 5.5 Fixação do Conteúdo
+### **📌 5.3.2 Explicação das Cláusulas**
 
-### 5.5.1 Questões Dissertativas
+#### **🔹 Cláusula `VALUES`**
 
-1. Explique a diferença entre os comandos `INSERT INTO` e `SELECT`.
-2. Por que é importante utilizar a cláusula `WHERE` em consultas?
-3. Dê um exemplo prático de como a função `SUM` pode ser utilizada em relatórios de vendas.
+A cláusula `VALUES` é utilizada em conjunto com o `INSERT INTO` para adicionar novos registros a uma tabela.
 
-### 5.5.2 Questões de Múltipla Escolha
+```sql
+INSERT INTO alunos (id_aluno, nome, data_nascimento) 
+VALUES (1, 'Carlos Silva', '2005-06-15');
+```
 
-1. Qual comando é usado para inserir dados em uma tabela no MySQL?
-   - a) `INSERT INTO`
-   - b) `ADD DATA`
-   - c) `INPUT VALUES`
-   - d) `INSERT DATA`
+📌 **Explicação:**
 
-2. Qual das opções abaixo é usada para recuperar dados de uma tabela?
+- Define os valores específicos a serem inseridos nas colunas da tabela.
 
-- a) `GET DATA`
-- b) `FETCH DATA`
-- c) `SELECT`
-- d) `SHOW DATA`
+#### **🔹 Cláusula `SET`**
 
-### 5.5.3 Questões de Caixa de Seleção
+A cláusula `SET` é utilizada no comando `UPDATE` para especificar quais valores devem ser alterados.
 
-1. Quais elementos são necessários para inserir dados em uma tabela?
-   - Nome da tabela
-   - Nomes das colunas
-   - Valores a serem inseridos
-2. Marque as cláusulas que podem ser usadas em consultas com `SELECT`:
-   - `WHERE`
-   - `ORDER BY`
-   - `LIMIT`
-   - `GROUP BY`
+```sql
+UPDATE alunos 
+SET nome = 'Carlos S. Oliveira' 
+WHERE id_aluno = 1;
+```
 
-### 5.5.4 Questões de Associação de Colunas
+📌 **Explicação:**
 
-Associe os comandos às suas finalidades:
+- `SET` define quais colunas serão modificadas e seus novos valores.
+- É sempre recomendado usar `WHERE` para evitar alterar todos os registros.
 
-1. **INSERT INTO** - a) Insere dados em uma tabela.
-2. **SELECT** - b) Recupera dados de uma tabela.
-3. **WHERE** - c) Filtra os resultados de uma consulta.
-4. **ORDER BY** - d) Ordena os resultados de uma consulta.
-5. **SUM** - e) Soma valores de uma coluna.
+#### **🔹 Cláusula `FROM`**
 
-### 5.5.5 Questões de Verdadeiro ou Falso
+A cláusula `FROM` é utilizada no `DELETE` para indicar de qual tabela os registros serão excluídos.
 
-1. O comando `INSERT INTO` pode ser usado para alterar dados em uma tabela.
-2. A cláusula `WHERE` é usada para filtrar registros em uma consulta.
-3. A função `COUNT` conta o número de linhas retornadas por uma consulta.
+```sql
+DELETE FROM alunos WHERE id_aluno = 1;
+```
+
+📌 **Explicação:**
+
+- `FROM` indica a tabela-alvo da remoção.
+- Sem `WHERE`, todos os registros serão excluídos.
+
+#### **🔹 Cláusula `WHERE`**
+
+A cláusula `WHERE` é utilizada em `UPDATE` e `DELETE` para aplicar condições específicas e evitar alterações em massa indesejadas.
+
+```sql
+DELETE FROM alunos WHERE nome = 'Carlos Silva';
+```
+
+📌 **Explicação:**
+
+- Filtra os registros a serem modificados ou removidos, garantindo precisão na manipulação.
 
 ------
 
-## 5.6 Conclusão
+## 📝 5.5 Fixação do Conteúdo
 
-Nesta aula, você aprendeu como inserir dados em tabelas e realizar consultas básicas no MySQL, incluindo o uso de funções agregadas. Esses comandos formam a base para manipular e acessar dados de maneira eficaz. Na próxima aula, exploraremos como consolidar esses conceitos e aplicar consultas mais avançadas para atender diferentes cenários de uso.
+### **🖊️ Questões Dissertativas**
+
+1. Explique a importância da cláusula `WHERE` ao utilizar os comandos `UPDATE` e `DELETE`.
+2. Qual a diferença entre `DELETE` e `TRUNCATE` no MySQL?
+
+### **📝 Questões de Múltipla Escolha**
+
+1. Qual cláusula é utilizada para definir quais colunas serão modificadas em um `UPDATE`?
+   - [ ] `FROM`
+   - [ ] `SET`
+   - [ ] `VALUES`
+   - [ ] `WHERE`
+2. O que acontece se um `DELETE` for executado sem a cláusula `WHERE`?
+   - [ ] Nenhum registro será apagado.
+   - [ ] Todos os registros da tabela serão excluídos.
+   - [ ] Apenas o primeiro registro será removido.
+   - [ ] O MySQL retornará um erro.
+3. Qual cláusula é utilizada para definir quais colunas serão modificadas em um `UPDATE`?
+   - [ ] `FROM`
+   - [ ] `SET`
+   - [ ] `VALUES`
+   - [ ] `WHERE`
+4. O que acontece se um `DELETE` for executado sem a cláusula `WHERE`?
+   - [ ] Nenhum registro será apagado.
+   - [ ] Todos os registros da tabela serão excluídos.
+   - [ ] Apenas o primeiro registro será removido.
+   - [ ] O MySQL retornará um erro.
+
+### **📋 Questões de Caixa de Seleção**
+
+1. Quais comandos fazem parte da DML?
+   - [ ] `INSERT INTO`
+   - [ ] `UPDATE`
+   - [ ] `DELETE`
+   - [ ] `ALTER TABLE`
+2. Marque as cláusulas utilizadas na manipulação de dados:
+   - [ ] `SET`
+   - [ ] `WHERE`
+   - [ ] `VALUES`
+   - [ ] `DROP`
+3. Quais comandos fazem parte da DML?
+   - [ ] `INSERT INTO`
+   - [ ] `UPDATE`
+   - [ ] `DELETE`
+   - [ ] `ALTER TABLE`
+4. Marque as cláusulas utilizadas na manipulação de dados:
+   - [ ] `SET`
+   - [ ] `WHERE`
+   - [ ] `VALUES`
+   - [ ] `DROP`
+
+### **🔗 Questões de Associação de Colunas**
+
+1. Associe os comandos DML às suas funções:
+   - **INSERT INTO** → ( ) Adiciona novos registros a uma tabela.
+   - **UPDATE** → ( ) Modifica registros existentes.
+   - **DELETE** → ( ) Remove registros de uma tabela.
+2. Associe as cláusulas aos seus respectivos usos:
+   - **SET** → ( ) Define novos valores em um `UPDATE`.
+   - **WHERE** → ( ) Filtra os registros afetados por um comando.
+   - **VALUES** → ( ) Define os valores inseridos em um `INSERT`.
+   - **FROM** → ( ) Especifica a tabela de onde os dados serão removidos.
+
+### **⚖️ Questões de Verdadeiro ou Falso**
+
+1. O comando `DELETE` remove uma tabela inteira do banco de dados.
+2. A cláusula `SET` é usada em conjunto com `INSERT INTO`.
+3. A cláusula `WHERE` deve sempre ser usada no `UPDATE` para evitar alterações indesejadas.
+4. O comando `INSERT INTO` permite a inserção de múltiplos registros em uma única execução.
+
+- [ ] F V F V
+- [ ] V F V V
+- [ ] F F V V
+- [ ] V F F V
+
+------
+
+## 🏁 5.6 Conclusão
+
+Nesta aula, aprendemos a **manipular dados no MySQL** utilizando os comandos **DML (`INSERT`, `UPDATE` e `DELETE`)**. Além disso, exploramos **as cláusulas `WHERE`, `SET`, `FROM` e `VALUES`, fundamentais para a correta manipulação de dados**.
+
+📌 **Na próxima aula, vamos aprofundar a execução de consultas com `SELECT`!** 🚀
