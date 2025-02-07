@@ -48,9 +48,7 @@ O **MySQL Workbench** é uma ferramenta gráfica que facilita a administração 
 
 1. **Abra o Workbench** e clique em "New Connection".
 
-2. Preencha os campos
-
-   :
+2. Preencha os campos:
 
    - *Hostname:* `localhost`
    - *Username:* `root`
