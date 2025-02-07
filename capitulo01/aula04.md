@@ -1,201 +1,167 @@
-# Aula 4: Criação de Tabelas no MySQL
+# 📚 Aula 4: Criação de Tabelas no MySQL e Comandos DDL
 
-## 4.1 Frase Motivadora
+## ✨ 4.1 Frase Reflexiva
 
-> “Dados bem organizados são o primeiro passo para transformar informação em conhecimento.” — Autor Desconhecido
+> "A organização dos dados começa na estrutura correta das tabelas. Dominar a definição do banco é essencial para garantir a eficiência." — Autor Desconhecido
 
-## 4.2 Introdução
+## 🏁 4.2 Introdução
 
-As tabelas são a estrutura fundamental de qualquer banco de dados relacional. Elas organizam os dados em linhas e colunas, permitindo que informações sejam armazenadas de maneira consistente e recuperadas com facilidade. Nesta aula, você aprenderá como criar tabelas no MySQL, compreenderá a importância das chaves primárias e dos tipos de dados, e praticará a criação de tabelas para diferentes finalidades.
+As tabelas são a **base fundamental** de qualquer banco de dados relacional. Elas permitem armazenar informações de maneira estruturada, facilitando **consultas eficientes, integridade dos dados e escalabilidade do sistema**. Sem uma estrutura bem planejada, a recuperação e a manipulação dos dados podem se tornar lentas e ineficientes.
 
-Entender a estrutura das tabelas é crucial para criar bases de dados robustas e escaláveis.
+Nesta aula, você aprenderá:
+✅ Como criar tabelas no MySQL.  
+✅ A importância das **chaves primárias** e **chaves estrangeiras**.  
+✅ Tipos de dados comuns no MySQL.  
+✅ Boas práticas para a modelagem de tabelas.  
+✅ O conceito e os principais comandos da **DDL (Data Definition Language)**.  
+✅ Como visualizar as conexões entre tabelas através de um **fluxograma**.
+✅ Fixação do aprendizado com questões variadas.
+✅ Exercícios práticos para aplicação em sala e em casa.
 
-------
+Ao final, você será capaz de **definir e estruturar tabelas para armazenar dados de maneira eficiente**. 🚀
 
-## 4.3 Desenvolvimento do Conteúdo
+---
 
-### 4.3.1 Estrutura Básica de uma Tabela
+## 🔍 4.3 Desenvolvimento do Conteúdo
 
-Uma tabela é composta pelos seguintes elementos principais:
+### **🛠️ 4.3.1 O que é DDL (Data Definition Language)?**
 
-- **Colunas:** Representam os atributos ou características dos dados (ex.: nome, idade, email).
-- **Linhas:** Cada linha representa um registro único (ex.: uma pessoa ou um produto).
-- Chave Primária:
-  - Identifica de forma única cada registro na tabela.
-  - Deve conter valores únicos e não nulos.
-- Chave Estrangeira:
-  - Relaciona tabelas diferentes, criando uma conexão entre os dados.
-  - Exemplo: Em uma tabela de "pedidos", a chave estrangeira pode ser o identificador do cliente que realizou o pedido.
+A **DDL (Linguagem de Definição de Dados)** é um subconjunto do SQL responsável por definir e modificar a estrutura do banco de dados. Os principais comandos da DDL são:
 
-### 4.3.2 Tipos de Dados Comuns no MySQL
+🔹 **CREATE** → Cria bancos de dados, tabelas, índices e outros objetos.  
+🔹 **DROP** → Remove bancos de dados ou tabelas.  
+🔹 **ALTER** → Modifica a estrutura de uma tabela existente.  
+🔹 **TRUNCATE** → Remove todos os registros de uma tabela sem apagar sua estrutura.
 
-Ao criar uma tabela, é necessário definir o tipo de dado de cada coluna. Alguns dos mais utilizados são:
+Esses comandos são essenciais para a **organização inicial do banco de dados**, garantindo que sua estrutura atenda aos requisitos do sistema.
 
-- **INT:** Números inteiros (ex.: id, idade).
-- **VARCHAR:** Cadeias de caracteres com comprimento variável (ex.: nomes, endereços de email).
-- **DATE:** Datas no formato ‘YYYY-MM-DD’.
-- **DECIMAL:** Números com ponto flutuante para valores monetários (ex.: preços).
-- **TEXT:** Armazena grandes blocos de texto.
-- **BLOB:** Dados binários como imagens ou arquivos.
-- **TIMESTAMP:** Representa data e hora.
+### **📌 4.3.2 Comandos DDL no MySQL**
 
-### 4.3.3 Comandos para Criação de Tabelas
+#### **🔹 Criando um Banco de Dados (`CREATE DATABASE`)**
+```sql
+CREATE DATABASE sistema_escolar;
+```
+📌 **Explicação:** Esse comando cria um **novo banco de dados** para armazenar as informações. É o primeiro passo antes de criar tabelas.
 
-**Criando uma Tabela Básica:**
+#### **🔹 Criando Tabelas (`CREATE TABLE`)**
+```sql
+CREATE TABLE alunos (
+    id_aluno INT PRIMARY KEY,
+    nome VARCHAR(100),
+    data_nascimento DATE
+);
+```
+📌 **Explicação:** Criamos a tabela `alunos` com três colunas e `id_aluno` como chave primária. Essa tabela armazenará os alunos cadastrados no sistema.
+
+#### **🔹 Alterando Tabelas (`ALTER TABLE`)**
+```sql
+ALTER TABLE alunos ADD COLUMN telefone VARCHAR(15);
+```
+📌 **Explicação:** O comando `ALTER TABLE` adiciona a coluna `telefone` à tabela `alunos`, permitindo armazenar números de telefone dos alunos.
+
+#### **🔹 Excluindo Tabelas (`DROP TABLE`)**
+```sql
+DROP TABLE alunos;
+```
+📌 **Explicação:** Esse comando exclui completamente a tabela `alunos` e todos os seus dados. Deve ser usado com cautela, pois a remoção é permanente.
+
+#### **🔹 Limpando uma Tabela (`TRUNCATE TABLE`)**
+```sql
+TRUNCATE TABLE alunos;
+```
+📌 **Explicação:** O comando `TRUNCATE` remove todos os registros da tabela sem excluir sua estrutura, sendo útil para resetar dados sem recriar tabelas.
+
+---
+
+### **🔗 4.3.3 Relacionamento entre Tabelas**
+
+📌 **Exemplo: Relacionamento entre `alunos`, `professores` e `aulas`.**
 
 ```sql
-CREATE TABLE clientes (
-    id_cliente INT PRIMARY KEY,
-    nome VARCHAR(50),
-    email VARCHAR(50)
+CREATE TABLE professores (
+    id_professor INT PRIMARY KEY,
+    nome VARCHAR(100)
+);
+
+CREATE TABLE aulas (
+    id_aula INT PRIMARY KEY,
+    id_professor INT,
+    data_aula DATE,
+    conteudo TEXT,
+    FOREIGN KEY (id_professor) REFERENCES professores(id_professor)
 );
 ```
 
-**Explicação dos Campos:**
+📌 **Explicação:**
+- A tabela `aulas` registra cada aula e seu conteúdo.
+- `id_professor` é uma **chave estrangeira**, garantindo que apenas professores cadastrados possam ser vinculados a aulas.
 
-- `id_cliente`: Chave primária, identificador único do cliente.
-- `nome`: Nome do cliente, com limite de até 50 caracteres.
-- `email`: Endereço de email do cliente, também com limite de 50 caracteres.
+---
 
-**Exemplo de Tabela Relacionada com Chave Estrangeira:**
+## 📝 4.4 Fixação do Conteúdo
 
-```sql
-CREATE TABLE pedidos (
-    id_pedido INT PRIMARY KEY,
-    id_cliente INT,
-    data_pedido DATE,
-    total DECIMAL(10, 2),
-    FOREIGN KEY (id_cliente) REFERENCES clientes(id_cliente)
-);
-```
-
-- `id_pedido`: Identificador único do pedido.
-- `id_cliente`: Identificador do cliente que realizou o pedido (chave estrangeira).
-- `data_pedido`: Data em que o pedido foi realizado.
-- `total`: Valor total do pedido.
-
-**Diagrama Simples:**
-
-- **clientes**
-  - id_cliente (PK)
-  - nome
-  - email
-- **pedidos**
-  - id_pedido (PK)
-  - id_cliente (FK para clientes)
-  - data_pedido
-  - total
-
-### 4.3.4 Boas Práticas
-
-- Utilize nomes claros e descritivos para tabelas e colunas.
-- Planeje os tipos de dados com base na natureza dos dados que serão armazenados.
-- Sempre defina chaves primárias para identificar registros únicos.
-- Use chaves estrangeiras para evitar redundância e manter a integridade dos dados.
-- Evite tipos de dados desnecessariamente grandes, pois isso pode impactar o desempenho.
-
-------
-
-## 4.4 Atividades Práticas
-
-### 4.4.1 Em Sala de Aula
-
-1. **Criar Tabelas no Terminal:**
-
-   - Utilize o MySQL no terminal para criar as tabelas `clientes` e `pedidos`.
-
-   - Execute os comandos `DESCRIBE` para verificar a estrutura das tabelas criadas:
-
-     ```sql
-     DESCRIBE clientes;
-     DESCRIBE pedidos;
-     ```
-
-2. **Discussão:**
-
-   - Por que é importante definir corretamente os tipos de dados ao criar uma tabela?
-   - Como as chaves estrangeiras ajudam na organização de bancos de dados?
-
-### 4.4.2 Para Casa
-
-1. **Criação de Tabelas no Workbench:**
-
-   - No MySQL Workbench, crie uma tabela chamada `produtos` com os seguintes campos:
-
-     - `id_produto` (INT, chave primária)
-     - `nome_produto` (VARCHAR)
-     - `preco` (DECIMAL)
-     - `estoque` (INT)
-
-   - Em seguida, relacione esta tabela com a tabela `pedidos` adicionando um campo `id_produto` como chave estrangeira na tabela `pedidos`:
-
-     ```sql
-     ALTER TABLE pedidos ADD id_produto INT;
-     ALTER TABLE pedidos ADD FOREIGN KEY (id_produto) REFERENCES produtos(id_produto);
-     ```
-
-2. **Pesquisa:**
-
-   - Investigue outros tipos de dados no MySQL (ex.: `ENUM`, `SET`) e traga exemplos práticos de uso.
-
-------
-
-## 4.5 Fixação do Conteúdo
-
-### 4.5.1 Questões Dissertativas
+### **🖊️ Questões Dissertativas**
 
 1. Explique a importância de uma chave primária em uma tabela.
-2. Por que é essencial planejar os tipos de dados ao criar uma tabela?
-3. Qual a função de uma chave estrangeira em bancos de dados relacionais?
+2. Como as chaves estrangeiras garantem a integridade dos dados?
 
-### 4.5.2 Questões de Múltipla Escolha
+### **📝 Questões de Múltipla Escolha**
+
+1. Qual comando é utilizado para modificar a estrutura de uma tabela existente no MySQL?
+   - [ ] `UPDATE TABLE`
+   - [ ] `CHANGE TABLE`
+   - [ ] `ALTER TABLE`
+   - [ ] `MODIFY TABLE`
+
+2. Qual dos comandos abaixo remove todos os registros de uma tabela, mas mantém sua estrutura intacta?
+   - [ ] `DELETE FROM`
+   - [ ] `DROP TABLE`
+   - [ ] `REMOVE DATA`
+   - [ ] `TRUNCATE TABLE`
 
 1. Qual comando é usado para criar uma tabela no MySQL?
-   - a) `MAKE TABLE`
-   - b) `CREATE TABLE`
-   - c) `ADD TABLE`
-   - d) `INSERT TABLE`
+   - [ ] `MAKE TABLE`
+   - [ ] `CREATE TABLE`
+   - [ ] `ADD TABLE`
+   - [ ] `INSERT TABLE`
 
-2. Qual das opções abaixo é um tipo de dado válido no MySQL?
 
-- a) TEXTUAL
-- b) VARCHAR
-- c) CHARACTER
-- d) FLOATING
+### **📋 Questões de Caixa de Seleção**
 
-### 4.5.3 Questões de Caixa de Seleção
+1. Marque os elementos essenciais para criar uma tabela funcional:
+   - [ ] Nome da tabela
+   - [ ] Chave primária
+   - [ ] Comandos SELECT
+   - [ ] Tipos de dados
 
-1. Quais dos seguintes são tipos de dados no MySQL?
-   - INT
-   - DATE
-   - BLOB
-   - DECIMAL
-2. Marque os elementos necessários para criar uma tabela funcional:
-   - Nome da tabela
-   - Tipos de dados
-   - Chave primária
-   - Chave estrangeira
+### **🔗 Questões de Associação de Colunas**
 
-### 4.5.4 Questões de Associação de Colunas
+1. Associe os comandos DDL às suas respectivas funções:
+   - [ ] **CREATE TABLE** → ( ) Cria uma nova tabela no banco de dados.
+   - [ ] **DROP TABLE** → ( ) Remove uma tabela e todos os seus dados.
+   - [ ] **ALTER TABLE** → ( ) Modifica a estrutura de uma tabela existente.
+   - [ ] **TRUNCATE TABLE** → ( ) Remove todos os registros de uma tabela, mantendo sua estrutura.
 
-Associe os tipos de dados às suas finalidades:
+### **⚖️ Questões de Verdadeiro ou Falso**
 
-1. **INT** - a) Armazenar números inteiros.
-2. **VARCHAR** - b) Armazenar textos curtos.
-3. **DATE** - c) Armazenar datas.
-4. **DECIMAL** - d) Armazenar valores monetários.
-5. **BLOB** - e) Armazenar dados binários.
-
-### 4.5.5 Questões de Verdadeiro ou Falso
-
-1. O comando `CREATE TABLE` é usado para excluir uma tabela no MySQL. 
+1. O comando `CREATE TABLE` é usado para excluir uma tabela no MySQL.
 2. O tipo de dado `VARCHAR` é usado para armazenar textos curtos.
-3. As chaves estrangeiras ajudam a relacionar tabelas diferentes.
+3. O comando `ALTER TABLE` é usado para modificar a estrutura de uma tabela.
+4. As chaves estrangeiras permitem a relação entre tabelas no banco de dados.
 
-------
+- [ ] F V V V  
+- [ ] V F V V  
+- [ ] V F F V  
+- [ ] F V V V  
 
-## 4.6 Conclusão
+---
 
-Nesta aula, você aprendeu como criar tabelas no MySQL, incluindo a definição de chaves primárias, estrangeiras e tipos de dados. Também exploramos como relacionar tabelas para manter a integridade dos dados.
+## 🏁 4.6 Conclusão
 
-Na próxima aula, exploraremos como inserir e consultar dados nas tabelas criadas, ampliando ainda mais sua capacidade de trabalhar com bancos de dados.
+Nesta aula, você aprendeu:
+✅ O que é **DDL (Data Definition Language)** e seus comandos principais.  
+✅ Como **criar, modificar e excluir tabelas** no MySQL.  
+✅ Como **estabelecer relações entre tabelas** usando **chaves primárias e estrangeiras**.  
+✅ Como **visualizar a estrutura do banco de dados** usando fluxogramas.
+
+📌 **Na próxima aula, vamos explorar inserção e consulta de dados no MySQL!** 🚀
