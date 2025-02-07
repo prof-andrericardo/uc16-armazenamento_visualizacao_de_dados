@@ -1,140 +1,190 @@
-# Aula 3: Introdução ao MySQL
+# 📚 Aula 3: Introdução ao MySQL
 
-## 3.1 Frase Motivadora
+## ✨ 3.1 Frase Reflexiva
 
-> “Sem bancos de dados, o mundo digital seria como uma biblioteca sem catálogo.” — Autor Desconhecido
+> "Os dados são o novo petróleo. Mas sem um banco de dados bem estruturado, são apenas um oceano sem forma." — Clive Humby
 
-## 3.2 Introdução
+## 🏁 3.2 Introdução
 
-O MySQL é um dos sistemas de gerenciamento de bancos de dados relacionais mais populares no mundo. Ele permite criar, acessar e manipular dados de maneira eficiente e é amplamente utilizado em aplicações web, sistemas corporativos e até em projetos acadêmicos.
+O MySQL é um dos sistemas de gerenciamento de banco de dados relacionais (SGBD) mais utilizados no mundo. Ele permite **armazenar, manipular e recuperar informações** de maneira eficiente, sendo amplamente adotado por empresas, desenvolvedores e instituições acadêmicas.
 
-Nesta aula, exploraremos como configurar o ambiente de trabalho, aprenderemos os comandos básicos e criaremos nosso primeiro banco de dados. Você estará iniciando uma jornada prática para trabalhar com dados estruturados utilizando o MySQL.
+Nesta aula, vamos: ✅ Configurar o ambiente de trabalho no MySQL.
+ ✅ Conhecer os comandos básicos para criar e gerenciar bancos de dados.
+ ✅ Explorar o **MySQL Workbench** e sua interface gráfica.
 
-## 3.3 Desenvolvimento do Conteúdo
+Ao final, você será capaz de **criar seu primeiro banco de dados e explorar suas funcionalidades**. 🚀
 
-### 3.3.1 Configuração do Ambiente
+------
 
-**Acesso ao MySQL no Terminal:**
+## 🔍 3.3 Desenvolvimento do Conteúdo
 
-- Acesse o MySQL utilizando o terminal em sua máquina virtual Debian 12.9.
-- Comando básico para iniciar o MySQL:
+### **🛠️ 3.3.1 Configuração do Ambiente**
 
-```bash
-mysql -u root -p
-```
+Para começar a usar o MySQL, precisamos configurar o ambiente. Vamos abordar duas maneiras principais de acessá-lo:
 
-- Ao executar este comando, você será solicitado a digitar a senha do usuário "root".
+#### **📌 Acesso ao MySQL pelo Terminal**
 
-**Acesso ao MySQL Workbench:**
+Caso esteja usando o **Debian 12.9 em uma máquina virtual**, siga os passos abaixo:
 
-- O MySQL Workbench é uma interface gráfica que facilita a manipulação de bancos de dados.
-- Passos:
-  1. Abra o MySQL Workbench e configure uma conexão utilizando as credenciais de acesso (usuário, senha e hostname).
-  2. Explore as ferramentas visuais para executar comandos e visualizar estruturas de tabelas.
+1. Abra o terminal e digite:
 
-### 3.3.2 Comandos Básicos no MySQL
+   ```bash
+   mysql -u root -p
+   ```
 
-**Gerenciamento de Bancos de Dados:**
+2. Digite a senha do usuário `root` quando solicitado.
 
-1. Criar um banco de dados:
+3. Se o login for bem-sucedido, você verá o prompt do MySQL:
+
+   ```sql
+   mysql>
+   ```
+
+4. Agora, você pode executar comandos SQL diretamente no terminal. 🎯
+
+#### **🖥️ Acesso ao MySQL Workbench**
+
+O **MySQL Workbench** é uma ferramenta gráfica que facilita a administração do banco de dados. Para acessá-lo:
+
+1. **Abra o Workbench** e clique em "New Connection".
+
+2. Preencha os campos
+
+   :
+
+   - *Hostname:* `localhost`
+   - *Username:* `root`
+   - *Password:* (a senha definida no MySQL)
+
+3. Clique em **Test Connection** e depois em **OK**.
+
+4. Agora, você pode gerenciar bancos de dados visualmente. ✅
+
+------
+
+### **📄 3.3.2 Comandos Básicos no MySQL**
+
+#### **📌 Criando um Banco de Dados**
+
+Agora vamos criar um banco de dados que utilizaremos ao longo do curso:
 
 ```sql
-CREATE DATABASE loja_virtual;
+CREATE DATABASE sistema_escolar;
 ```
 
-1. Listar bancos de dados existentes:
+📌 **Explicação:** Esse comando cria um **novo banco de dados** que poderá armazenar informações sobre alunos, professores e aulas.
+
+#### **📌 Listando Bancos de Dados**
+
+Para visualizar todos os bancos de dados disponíveis no MySQL:
 
 ```sql
 SHOW DATABASES;
 ```
 
-1. Selecionar um banco de dados para uso:
+📌 **Saída esperada:**
 
-```sql
-USE loja_virtual;
+```
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| sistema_escolar    |
+| mysql              |
+| performance_schema |
+| sys                | 
++--------------------+
 ```
 
-**Boas Práticas:**
+#### **📌 Selecionando um Banco de Dados**
 
-- Utilize nomes descritivos para bancos de dados e tabelas.
-- Revise comandos antes de executá-los para evitar erros e impactos desnecessários.
+Para indicar que vamos trabalhar dentro de um banco de dados específico, usamos:
 
-------
+```sql
+USE sistema_escolar;
+```
 
-## 3.4 Atividades Práticas
-
-### 3.4.1 Em Sala de Aula
-
-1. **Configuração do Ambiente:**
-   - Acesse o MySQL no terminal e configure uma nova conexão no MySQL Workbench.
-2. **Criação de Banco de Dados:**
-   - Utilize o comando `CREATE DATABASE` para criar um banco de dados chamado `escola_digital`.
-3. **Exploração de Comandos:**
-   - Liste os bancos de dados criados utilizando `SHOW DATABASES`.
-   - Selecione o banco `escola_digital` com o comando `USE`.
-
-### 3.4.2 Para Casa
-
-1. **Exploração no Workbench:**
-   - Crie um banco de dados chamado `biblioteca_virtual`.
-   - Experimente criar tabelas neste banco, mesmo que simples.
-2. **Pesquisa:**
-   - Pesquise sobre a importância de bancos de dados em aplicações web e traga exemplos de sites ou sistemas que dependem de bancos de dados (ex.: e-commerce, redes sociais).
+📌 **Explicação:** Esse comando define `sistema_escolar` como o banco de dados ativo.
 
 ------
 
-## 3.5 Fixação do Conteúdo
+## 🎯 3.4 Atividades Práticas
 
-### 3.5.1 Questões Dissertativas
+### **📌 3.4.1 Em Sala de Aula**
+
+1. Configuração do MySQL:
+   - Acesse o MySQL via terminal e crie um banco chamado `sistema_escolar`.
+2. Exploração de comandos:
+   - Liste os bancos de dados disponíveis.
+   - Selecione `sistema_escolar` e descreva seu funcionamento.
+
+### **🏡 3.4.2 Para Casa**
+
+1. MySQL Workbench:
+   - Crie um banco chamado `sistema_academico` e explore a interface gráfica.
+2. Pesquisa:
+   - Descubra a importância do MySQL em sistemas educacionais e empresas.
+
+------
+
+## 📝 3.5 Fixação do Conteúdo
+
+### **🖊️ Questões Dissertativas**
 
 1. Explique a diferença entre os comandos `CREATE DATABASE` e `USE` no MySQL.
-2. Por que é importante usar nomes descritivos ao criar bancos de dados?
+2. Como o MySQL Workbench facilita a administração de um banco de dados relacional?
 
-### 3.5.2 Questões de Múltipla Escolha
+### **📝 Questões de Múltipla Escolha**
 
-1. Qual comando é usado para listar todos os bancos de dados em um servidor MySQL?
-   - a) `LIST DATABASES`
-   - b) `SHOW DATABASES`
-   - c) `DISPLAY DATABASES`
-   - d) `VIEW DATABASES`
+1. Qual comando é usado para listar todos os bancos de dados no MySQL?
+   - [ ] `LIST DATABASES`
+   - [ ] `SHOW DATABASES`
+   - [ ] `DISPLAY DATABASES`
+   - [ ] `VIEW DATABASES`
+2. Qual comando é utilizado para criar um novo banco de dados?
+   - [ ] `NEW DATABASE`
+   - [ ] `CREATE DATABASE`
+   - [ ] `MAKE DATABASE`
+   - [ ] `ADD DATABASE`
 
-2. Qual comando é usado para criar um novo banco de dados?
+### **📋 Questões de Caixa de Seleção**
 
-- a) `NEW DATABASE`
-- b) `CREATE DATABASE`
-- c) `MAKE DATABASE`
-- d) `ADD DATABASE`
+1. Quais comandos são usados no gerenciamento de bancos de dados?
+   - [ ] `CREATE DATABASE`
+   - [ ] `USE`
+   - [ ] `REMOVE TABLE`
+   - [ ] `DELETE COLUMN`
+   - [ ] `SHOW DATABASES`
+2. Quais características pertencem ao MySQL Workbench?
+   - [ ] Interface gráfica para bancos de dados
+   - [ ] Permite criar tabelas visualmente
+   - [ ] Ferramenta exclusiva para backup
+   - [ ] Substitui completamente o terminal
 
-### 3.5.3 Questões de Caixa de Seleção
+### **🔗 Questões de Associação de Colunas**
 
-1. Quais comandos são usados no gerenciamento de bancos de dados no MySQL?
-   - `CREATE DATABASE`
-   - `USE`
-   - `REMOVE TABLE`
-   - `DELETE COLUMN`
-2. Marque os itens que descrevem corretamente o MySQL Workbench:
-   - Interface gráfica para gerenciar bancos de dados.
-   - Ferramenta exclusiva para backup de dados.
-   - Permite criar tabelas e consultar dados visualmente.
-   - Substitui completamente o terminal MySQL.
+1. Associe os comandos às suas funções:
+   - **CREATE DATABASE** → ( ) Cria um novo banco de dados.
+   - **SHOW DATABASES** → ( ) Lista todos os bancos disponíveis.
+   - **USE** → ( ) Seleciona um banco para uso.
+   - **DROP DATABASE** → ( ) Exclui um banco de dados.
 
-### 3.5.4 Questões de Associação de Colunas
+### **⚖️ Questões de Verdadeiro ou Falso**
 
-Associe os comandos MySQL às suas funções:
-
-1. **CREATE DATABASE** - a) Seleciona um banco de dados para uso.
-2. **SHOW DATABASES** - b) Lista todos os bancos de dados existentes.
-3. **USE** - c) Cria um novo banco de dados.
-
-### 3.5.5 Questões de Verdadeiro ou Falso
-
-1. O comando `USE` é usado para criar um novo banco de dados.
+1. O comando `USE` cria um novo banco de dados.
 2. O MySQL Workbench é uma ferramenta gráfica para gerenciar bancos de dados.
+3. O MySQL só pode ser acessado via terminal.
+4. `SHOW DATABASES` exibe todos os bancos de dados criados.
+
+- [ ] F V V V
+- [ ] V F V V
+- [ ] V F F V
+- [ ] F V F V
 
 ------
 
-## 3.6 Conclusão
+## 🏁 3.6 Conclusão
 
-Nesta aula, você aprendeu como configurar o ambiente MySQL, acessar o terminal e o Workbench, e executar comandos básicos para criar e selecionar bancos de dados. Essas habilidades são cruciais para manipular dados de maneira eficiente e iniciar o desenvolvimento de sistemas baseados em bancos de dados.
+Nesta aula, aprendemos a **configurar o MySQL**, **executar comandos básicos** e explorar o **MySQL Workbench**. Isso representa o primeiro passo para manipular bancos de dados e construir aplicações eficientes.
 
-Na próxima aula, exploraremos como criar tabelas, inserir dados e realizar consultas simples no MySQL, avançando no processo de construção de bancos de dados robustos.
+📌 **Na próxima aula, vamos aprofundar a criação e manipulação de tabelas no MySQL!** 🚀
