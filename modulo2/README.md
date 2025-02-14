@@ -19,9 +19,9 @@ Este módulo está dividido em três capítulos principais:
 - Escolha correta de **tipos de dados** no MySQL.
 
 📌 **Destaques**:
-✔ Passo a passo para **criar e selecionar um banco de dados**.  
-✔ **Boas práticas na modelagem de tabelas** para garantir eficiência e escalabilidade.  
-✔ **Exemplos aplicados ao SGSA**, com foco na construção do sistema escolar.  
+- ✔ Passo a passo para **criar e selecionar um banco de dados**.  
+- ✔ **Boas práticas na modelagem de tabelas** para garantir eficiência e escalabilidade.  
+- ✔ **Exemplos aplicados ao SGSA**, com foco na construção do sistema escolar.  
 
 ---
 
@@ -35,9 +35,9 @@ Este módulo está dividido em três capítulos principais:
 - Criação de tabelas intermediárias para relações **N:M**.
 
 📌 **Destaques**:
-✔ **Explicação aprofundada sobre os tipos de relacionamentos** com exemplos práticos.  
-✔ **Aplicação no SGSA**: modelagem das relações entre **Alunos, Turmas, Professores e Disciplinas**.  
-✔ **Dicas sobre integridade referencial** e como evitar inconsistências nos dados.  
+- ✔ **Explicação aprofundada sobre os tipos de relacionamentos** com exemplos práticos.  
+- ✔ **Aplicação no SGSA**: modelagem das relações entre **Alunos, Turmas, Professores e Disciplinas**.  
+- ✔ **Dicas sobre integridade referencial** e como evitar inconsistências nos dados.  
 
 ---
 
@@ -51,8 +51,8 @@ Este módulo está dividido em três capítulos principais:
 - Melhores práticas para organização e estruturação do banco de dados.
 
 📌 **Destaques**:
-✔ **Criação do banco de dados do SGSA do zero, com todas as tabelas essenciais**.  
-✔ **Implementação de relacionamento N:M usando tabelas intermediárias**.  
+- ✔ **Criação do banco de dados do SGSA do zero, com todas as tabelas essenciais**.  
+- ✔ **Implementação de relacionamento N:M usando tabelas intermediárias**.\n
 ✔ **Utilização de tipos de dados adequados para otimização do armazenamento**.  
 
 ---
