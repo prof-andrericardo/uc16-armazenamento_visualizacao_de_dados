@@ -20,11 +20,11 @@ Um **Sistema Gerenciador de Banco de Dados (SGBD)** é um software que **organiz
 
 ### 📌 **Principais funções de um SGBD:**
 
-✔ **Armazenamento estruturado** – Gerencia grandes volumes de dados organizadamente.
- ✔ **Controle de acesso** – Permite a criação de usuários com diferentes permissões.
- ✔ **Integridade dos dados** – Garante que os dados inseridos sejam coerentes e sigam regras definidas.
- ✔ **Execução de consultas complexas** – Permite recuperar dados rapidamente com o SQL.
- ✔ **Suporte a transações** – Garante operações seguras e consistentes.
+- ✔ **Armazenamento estruturado** – Gerencia grandes volumes de dados organizadamente.
+- ✔ **Controle de acesso** – Permite a criação de usuários com diferentes permissões.
+- ✔ **Integridade dos dados** – Garante que os dados inseridos sejam coerentes e sigam regras definidas.
+- ✔ **Execução de consultas complexas** – Permite recuperar dados rapidamente com o SQL.
+- ✔ **Suporte a transações** – Garante operações seguras e consistentes.
 
 🔎 **Exemplo prático:**
  Em uma escola, um **SGBD** pode ser usado para **armazenar informações dos alunos**, **registrar suas notas e frequência** e **gerar relatórios administrativos**.
@@ -36,18 +36,18 @@ Um **Sistema Gerenciador de Banco de Dados (SGBD)** é um software que **organiz
 O **MySQL** é um dos SGBDs **mais populares do mundo**, sendo amplamente utilizado por empresas como **Facebook, Twitter, Netflix e Google**.
 
 🔹 **Principais características:**
- ✔ **Código aberto** – Disponível gratuitamente sob licença GPL.
- ✔ **Alto desempenho** – Otimizado para processar grandes volumes de dados rapidamente.
- ✔ **Portabilidade** – Funciona em Windows, Linux e macOS.
- ✔ **Segurança** – Suporte a criptografia, autenticação e controle de permissões.
- ✔ **Alta disponibilidade** – Suporte a replicação e clusters para alta confiabilidade.
+- ✔ **Código aberto** – Disponível gratuitamente sob licença GPL.
+- ✔ **Alto desempenho** – Otimizado para processar grandes volumes de dados rapidamente.
+- ✔ **Portabilidade** – Funciona em Windows, Linux e macOS.
+- ✔ **Segurança** – Suporte a criptografia, autenticação e controle de permissões.
+- ✔ **Alta disponibilidade** – Suporte a replicação e clusters para alta confiabilidade.
 
 🔹 **Quando utilizar o MySQL?**
  🎯 Para sistemas que exigem **desempenho, confiabilidade e escalabilidade**, como:
- ✔ Aplicações Web 📡
- ✔ Sistemas acadêmicos 🎓
- ✔ E-commerces 🛒
- ✔ Aplicações empresariais 🏢
+ - ✔ Aplicações Web 📡
+ - ✔ Sistemas acadêmicos 🎓
+ - ✔ E-commerces 🛒
+ - ✔ Aplicações empresariais 🏢
 
 🔎 **Exemplo prático:**
  O **SGSA** usará **MySQL** para armazenar **alunos, professores, chamadas e ocorrências**, garantindo que os dados possam ser **consultados e atualizados rapidamente**.
@@ -92,9 +92,9 @@ sudo mysql_secure_installation
 ```
 
 O sistema fará algumas perguntas, como:
- ✔ **Definir senha para o root** 🛡️
- ✔ **Remover usuários anônimos** 🚫
- ✔ **Desativar acesso remoto do root** 🔒
+- ✔ **Definir senha para o root** 🛡️
+- ✔ **Remover usuários anônimos** 🚫
+- ✔ **Desativar acesso remoto do root** 🔒
 
 📢 **Passo 5: Acessar o MySQL pela primeira vez**
 
@@ -113,9 +113,9 @@ O **MySQL Workbench** e o **MySQL Shell** são ferramentas poderosas para gerenc
 ### 📌 **MySQL Workbench**
 
 O **MySQL Workbench** é uma ferramenta gráfica que facilita:
- ✔ **Criação e edição de tabelas** 📋
- ✔ **Execução de consultas SQL** 🔍
- ✔ **Geração de diagramas de relacionamento** 📊
+- ✔ **Criação e edição de tabelas** 📋
+- ✔ **Execução de consultas SQL** 🔍
+- ✔ **Geração de diagramas de relacionamento** 📊
 
 📢 **Instalação no Linux:**
 
@@ -214,9 +214,9 @@ SELECT * FROM Alunos;
 
 ## 🎓 **Conclusão**
 
-✔ **O MySQL é um dos SGBDs mais utilizados no mundo, oferecendo alto desempenho e segurança.**
- ✔ **É uma ferramenta essencial para aplicações que exigem manipulação eficiente de grandes volumes de dados.**
- ✔ **Com o MySQL, podemos armazenar e gerenciar as informações do SGSA de forma estruturada.**
- ✔ **Ferramentas como MySQL Workbench e MySQL Shell facilitam o gerenciamento e execução de comandos SQL.**
+- ✔ **O MySQL é um dos SGBDs mais utilizados no mundo, oferecendo alto desempenho e segurança.**
+- ✔ **É uma ferramenta essencial para aplicações que exigem manipulação eficiente de grandes volumes de dados.**
+- ✔ **Com o MySQL, podemos armazenar e gerenciar as informações do SGSA de forma estruturada.**
+- ✔ **Ferramentas como MySQL Workbench e MySQL Shell facilitam o gerenciamento e execução de comandos SQL.**
 
 Agora que o MySQL está instalado e configurado, estamos prontos para começar a desenvolver o **SGSA**! 🚀
