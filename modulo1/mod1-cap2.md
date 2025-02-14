@@ -185,9 +185,9 @@ No **SGSA**, a SQL é utilizada para:
 
 ## 🎓 **Conclusão**
 
-✔ **SQL é a linguagem padrão para manipulação de bancos relacionais.**
- ✔ **Possui diferentes subconjuntos (DDL, DML, DQL, DCL, TCL).**
- ✔ **É amplamente utilizada no mercado e essencial para sistemas como o SGSA.**
- ✔ **Dominar SQL é um diferencial para qualquer profissional da área de tecnologia.**
+- ✔ **SQL é a linguagem padrão para manipulação de bancos relacionais.**
+- ✔ **Possui diferentes subconjuntos (DDL, DML, DQL, DCL, TCL).**
+- ✔ **É amplamente utilizada no mercado e essencial para sistemas como o SGSA.**
+- ✔ **Dominar SQL é um diferencial para qualquer profissional da área de tecnologia.**
 
 Agora que conhecemos a **base do SQL**, podemos avançar para sua aplicação prática no desenvolvimento do **SGSA**! 🚀
