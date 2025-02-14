@@ -10,10 +10,10 @@
 
 Neste capítulo, vamos colocar em prática tudo o que aprendemos sobre **bancos de dados relacionais**, criando a **estrutura inicial do SGSA** no MySQL. Você aprenderá:
 
-✅ **Como estruturar o banco de dados do SGSA** desde sua concepção.
- ✅ **Criar e configurar tabelas essenciais**, garantindo integridade e eficiência.
- ✅ **Implementar chaves primárias e estrangeiras** para modelagem de relacionamentos.
- ✅ **Aplicar boas práticas de design de banco de dados**, pensando na escalabilidade e manutenção do SGSA.
+- ✅ **Como estruturar o banco de dados do SGSA** desde sua concepção.
+- ✅ **Criar e configurar tabelas essenciais**, garantindo integridade e eficiência.
+- ✅ **Implementar chaves primárias e estrangeiras** para modelagem de relacionamentos.
+- ✅ **Aplicar boas práticas de design de banco de dados**, pensando na escalabilidade e manutenção do SGSA.
 
 Ao final deste capítulo, você terá um **banco de dados funcional**, pronto para armazenar informações sobre alunos, professores, turmas e eventos acadêmicos. 🎓
 
@@ -26,10 +26,10 @@ Ao final deste capítulo, você terá um **banco de dados funcional**, pronto pa
 Antes de começar a codificar, é essencial **definir a estrutura do banco de dados**. O SGSA precisa armazenar informações sobre **alunos, professores, turmas, disciplinas, chamadas e ocorrências**.
 
 💡 **O que considerar ao estruturar o banco?**
- ✔ **Quais entidades (tabelas) são necessárias?**
- ✔ **Quais informações cada entidade precisa armazenar?**
- ✔ **Como as entidades se relacionam entre si?**
- ✔ **Como garantir a integridade e evitar redundância de dados?**
+- ✔ **Quais entidades (tabelas) são necessárias?**
+- ✔ **Quais informações cada entidade precisa armazenar?**
+- ✔ **Como as entidades se relacionam entre si?**
+- ✔ **Como garantir a integridade e evitar redundância de dados?**
 
 ### 📌 **Diagrama Conceitual do SGSA**
 
@@ -45,12 +45,12 @@ O **modelo conceitual** do SGSA contém as seguintes entidades principais:
 🔎 **Exemplo de modelagem no DER (Diagrama Entidade-Relacionamento)**
 
 📌 **Relacionamentos principais:**
- ✔ **Um aluno pertence a apenas uma turma** (1:N).
- ✔ **Uma turma pode ter vários alunos** (1:N).
- ✔ **Um professor pode lecionar várias disciplinas** (N:M).
- ✔ **Cada disciplina é ministrada por um ou mais professores** (N:M).
- ✔ **Uma chamada está associada a um aluno e uma disciplina** (N:M).
- ✔ **Uma ocorrência pode envolver um aluno e um professor** (1:N).
+- ✔ **Um aluno pertence a apenas uma turma** (1:N).
+- ✔ **Uma turma pode ter vários alunos** (1:N).
+- ✔ **Um professor pode lecionar várias disciplinas** (N:M).
+-  ✔ **Cada disciplina é ministrada por um ou mais professores** (N:M).
+-  ✔ **Uma chamada está associada a um aluno e uma disciplina** (N:M).
+-  ✔ **Uma ocorrência pode envolver um aluno e um professor** (1:N).
 
 ------
 
@@ -102,9 +102,9 @@ CREATE TABLE Alunos (
 );
 ```
 
-✔ **Cada aluno tem um ID único**.
- ✔ **A matrícula deve ser única** (campo `UNIQUE`).
- ✔ **O campo `turma_id` cria uma relação com a tabela `Turmas`**.
+- ✔ **Cada aluno tem um ID único**.
+- ✔ **A matrícula deve ser única** (campo `UNIQUE`).
+- ✔ **O campo `turma_id` cria uma relação com a tabela `Turmas`**.
 
 ------
 
@@ -119,8 +119,8 @@ CREATE TABLE Turmas (
 );
 ```
 
-✔ **Cada turma tem um identificador único (`id_turma`)**.
- ✔ **A coluna `nome_turma` define o nome da turma**.
+- ✔ **Cada turma tem um identificador único (`id_turma`)**.
+- ✔ **A coluna `nome_turma` define o nome da turma**.
 
 ------
 
@@ -168,8 +168,8 @@ CREATE TABLE Professores_Disciplinas (
 );
 ```
 
-✔ **Tabela de relacionamento entre `Professores` e `Disciplinas`**.
- ✔ **Utiliza chaves estrangeiras para garantir integridade**.
+- ✔ **Tabela de relacionamento entre `Professores` e `Disciplinas`**.
+- ✔ **Utiliza chaves estrangeiras para garantir integridade**.
 
 ------
 
@@ -189,8 +189,8 @@ CREATE TABLE Chamada (
 );
 ```
 
-✔ **A presença do aluno é registrada para cada aula**.
- ✔ **Enum define valores fixos para a presença** (`Presente`, `Ausente`, `Justificado`).
+- ✔ **A presença do aluno é registrada para cada aula**.
+- ✔ **Enum define valores fixos para a presença** (`Presente`, `Ausente`, `Justificado`).
 
 ------
 
@@ -216,7 +216,7 @@ CREATE TABLE Ocorrencias (
 
 ## 🎓 **Conclusão**
 
-✔ **Criamos o banco de dados do SGSA e suas tabelas principais.**
- ✔ **Definimos chaves primárias e estrangeiras para garantir a integridade dos dados.**
- ✔ **Aplicamos boas práticas de modelagem para evitar redundância e inconsistências.**
- ✔ **Agora, estamos prontos para inserir e manipular dados no SGSA!** 🚀
+- ✔ **Criamos o banco de dados do SGSA e suas tabelas principais.**
+- ✔ **Definimos chaves primárias e estrangeiras para garantir a integridade dos dados.**
+- ✔ **Aplicamos boas práticas de modelagem para evitar redundância e inconsistências.**
+- ✔ **Agora, estamos prontos para inserir e manipular dados no SGSA!** 🚀
