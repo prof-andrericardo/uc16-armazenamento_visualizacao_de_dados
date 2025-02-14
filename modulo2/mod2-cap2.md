@@ -10,11 +10,11 @@
 
 Neste capítulo, vamos explorar a **definição de relacionamentos** em bancos de dados relacionais. Você aprenderá:
 
-✅ **O que são relacionamentos em bancos de dados e por que eles são fundamentais**.
- ✅ **Os diferentes tipos de relacionamentos (1:1, 1:N, N:M) e quando utilizá-los**.
- ✅ **Como implementar relacionamentos no MySQL utilizando chaves primárias e estrangeiras**.
- ✅ **Boas práticas para modelagem de relacionamentos, evitando redundâncias e inconsistências**.
- ✅ **Exemplos práticos aplicados ao SGSA (Sistema de Gerenciamento de Sala de Aula)**.
+- ✅ **O que são relacionamentos em bancos de dados e por que eles são fundamentais**.
+- ✅ **Os diferentes tipos de relacionamentos (1:1, 1:N, N:M) e quando utilizá-los**.
+- ✅ **Como implementar relacionamentos no MySQL utilizando chaves primárias e estrangeiras**.
+- ✅ **Boas práticas para modelagem de relacionamentos, evitando redundâncias e inconsistências**.
+- ✅ **Exemplos práticos aplicados ao SGSA (Sistema de Gerenciamento de Sala de Aula)**.
 
 Ao final deste capítulo, você estará apto a **criar e gerenciar relacionamentos entre tabelas** no MySQL de maneira eficiente. 🎓
 
@@ -27,9 +27,9 @@ Ao final deste capítulo, você estará apto a **criar e gerenciar relacionament
 Os **relacionamentos** em um banco de dados **relacional** estabelecem conexões entre tabelas, garantindo que os dados sejam organizados de forma lógica e eficiente.
 
 💡 **Por que os relacionamentos são importantes?**
- ✔ **Eliminam redundância**: Evitam a repetição desnecessária de dados.
- ✔ **Mantêm a integridade dos dados**: Garantem que os registros permaneçam consistentes.
- ✔ **Facilitam consultas e análises**: Permitem obter informações de várias tabelas com eficiência.
+- ✔ **Eliminam redundância**: Evitam a repetição desnecessária de dados.
+- ✔ **Mantêm a integridade dos dados**: Garantem que os registros permaneçam consistentes.
+- ✔ **Facilitam consultas e análises**: Permitem obter informações de várias tabelas com eficiência.
 
 🔎 **Exemplo real no SGSA**
  Em um sistema escolar, **cada aluno pertence a uma turma** e **cada turma tem vários alunos**. Em vez de armazenar o nome da turma dentro da tabela **Alunos**, criamos uma tabela separada para **Turmas** e utilizamos um relacionamento para conectar essas informações.
@@ -178,10 +178,10 @@ CREATE TABLE Professores_Disciplinas (
 
 ## 🎓 **Conclusão**
 
-✔ **Relacionamentos são essenciais para estruturar um banco de dados de maneira eficiente.**
- ✔ **Os três principais tipos de relacionamentos são: 1:1, 1:N e N:M.**
- ✔ **A integridade dos dados é mantida utilizando chaves primárias e estrangeiras.**
- ✔ **A modelagem correta evita duplicação e inconsistências, tornando o banco mais eficiente.**
- ✔ **O SGSA utiliza relacionamentos bem definidos para gerenciar alunos, professores, turmas e disciplinas de forma estruturada.**
+- ✔ **Relacionamentos são essenciais para estruturar um banco de dados de maneira eficiente.**
+- ✔ **Os três principais tipos de relacionamentos são: 1:1, 1:N e N:M.**
+- ✔ **A integridade dos dados é mantida utilizando chaves primárias e estrangeiras.**
+- ✔ **A modelagem correta evita duplicação e inconsistências, tornando o banco mais eficiente.**
+- ✔ **O SGSA utiliza relacionamentos bem definidos para gerenciar alunos, professores, turmas e disciplinas de forma estruturada.**
 
 Agora que compreendemos a definição de relacionamentos, podemos avançar para a **manipulação e modificação das tabelas no MySQL!** 🚀
