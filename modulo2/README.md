@@ -52,25 +52,25 @@ Este módulo está dividido em três capítulos principais:
 
 📌 **Destaques**:
 - ✔ **Criação do banco de dados do SGSA do zero, com todas as tabelas essenciais**.  
-- ✔ **Implementação de relacionamento N:M usando tabelas intermediárias**.\n
-✔ **Utilização de tipos de dados adequados para otimização do armazenamento**.  
+- ✔ **Implementação de relacionamento N:M usando tabelas intermediárias**.
+- ✔ **Utilização de tipos de dados adequados para otimização do armazenamento**.  
 
 ---
 
 ## 🛠 Tecnologias Utilizadas
 
-✅ **SQL (Structured Query Language)**  
-✅ **MySQL 8.0**  
-✅ **MySQL Workbench e MySQL Shell**  
-✅ **Modelo Relacional para estruturação de dados**  
+- ✅ **SQL (Structured Query Language)**
+- ✅ **MySQL 8.0**
+- ✅ **MySQL Workbench e MySQL Shell**
+- ✅ **Modelo Relacional para estruturação de dados**  
 
 ---
 
 ## 📝 Recursos Disponíveis
 
-📂 **Documentação detalhada** com explicações teóricas e exemplos práticos.  
-📂 **Questões de fixação** para cada capítulo, cobrindo teoria e prática.  
-📂 **Scripts SQL para criação do banco de dados** e suas tabelas.  
+- 📂 **Documentação detalhada** com explicações teóricas e exemplos práticos.  
+- 📂 **Questões de fixação** para cada capítulo, cobrindo teoria e prática.  
+- 📂 **Scripts SQL para criação do banco de dados** e suas tabelas.  
 
 📌 *Todos os arquivos e materiais estão disponíveis no repositório.*  
 
