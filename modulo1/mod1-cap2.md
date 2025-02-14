@@ -36,11 +36,11 @@ Desde sua criação, o SQL passou por diversas evoluções, tornando-se a lingua
 
 A SQL possui algumas características fundamentais que a tornam amplamente utilizada no mercado:
 
-✔ **Linguagem declarativa:** O usuário descreve **o que** deseja obter, sem precisar especificar **como** o banco de dados deve executar a operação.
- ✔ **Independente de plataforma:** SQL pode ser usada em diferentes SGBDs (**MySQL, PostgreSQL, Oracle, SQL Server**).
- ✔ **Padrão ANSI:** Permite que comandos SQL sejam reutilizados em diferentes bancos, com poucas adaptações.
- ✔ **Simples e poderosa:** Com poucos comandos, é possível executar operações complexas sobre os dados.
- ✔ **Manipulação eficiente de grandes volumes de dados:** Otimizada para lidar com milhões (ou bilhões) de registros.
+- ✔ **Linguagem declarativa:** O usuário descreve **o que** deseja obter, sem precisar especificar **como** o banco de dados deve executar a operação.
+- ✔ **Independente de plataforma:** SQL pode ser usada em diferentes SGBDs (**MySQL, PostgreSQL, Oracle, SQL Server**).
+- ✔ **Padrão ANSI:** Permite que comandos SQL sejam reutilizados em diferentes bancos, com poucas adaptações.
+- ✔ **Simples e poderosa:** Com poucos comandos, é possível executar operações complexas sobre os dados.
+- ✔ **Manipulação eficiente de grandes volumes de dados:** Otimizada para lidar com milhões (ou bilhões) de registros.
 
 🔎 **Exemplo de um comando SQL básico:**
 
@@ -158,10 +158,10 @@ ROLLBACK; -- Desfaz a alteração caso ocorra um erro
 ### 💼 **SQL no Mercado de Trabalho**
 
 Atualmente, SQL é **uma das habilidades mais requisitadas** em diversas áreas:
- ✔ **Desenvolvimento Web e Mobile** 📱
- ✔ **Administração de Bancos de Dados (DBA)** 🖥
- ✔ **Ciência de Dados e Inteligência Artificial** 📊
- ✔ **Gestão Empresarial e ERP** 🏢
+- ✔ **Desenvolvimento Web e Mobile** 📱
+- ✔ **Administração de Bancos de Dados (DBA)** 🖥
+- ✔ **Ciência de Dados e Inteligência Artificial** 📊
+- ✔ **Gestão Empresarial e ERP** 🏢
 
 🔎 **Exemplo real:**
  Uma loja de e-commerce precisa verificar **os produtos mais vendidos no último mês**. Um simples comando SQL pode gerar esse relatório automaticamente.
@@ -177,9 +177,9 @@ ORDER BY total_vendas DESC;
 ### 🎓 **SQL no SGSA**
 
 No **SGSA**, a SQL é utilizada para:
- ✔ **Gerenciar alunos, turmas e professores**.
- ✔ **Registrar chamadas e ocorrências disciplinares**.
- ✔ **Gerar relatórios detalhados sobre frequência e desempenho**.
+- ✔ **Gerenciar alunos, turmas e professores**.
+- ✔ **Registrar chamadas e ocorrências disciplinares**.
+- ✔ **Gerar relatórios detalhados sobre frequência e desempenho**.
 
 ------
 
