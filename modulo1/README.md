@@ -19,9 +19,9 @@ O Módulo 1 está dividido em três capítulos principais:
 - **Aplicação prática no SGSA**.
 
 📌 **Destaques**:
-✔ Explicação detalhada sobre a **transformação de dados em informação**.  
-✔ Comparação entre **bancos de dados relacionais e não relacionais**.  
-✔ **Exemplo prático da modelagem inicial do SGSA**.  
+- ✔ Explicação detalhada sobre a **transformação de dados em informação**.  
+- ✔ Comparação entre **bancos de dados relacionais e não relacionais**.  
+- ✔ **Exemplo prático da modelagem inicial do SGSA**.  
 
 ---
 
@@ -34,9 +34,9 @@ O Módulo 1 está dividido em três capítulos principais:
 - **Importância do SQL no mercado** e no desenvolvimento do SGSA.
 
 📌 **Destaques**:
-✔ Explicação dos **subconjuntos SQL com exemplos práticos**.  
-✔ **Aplicação do SQL no SGSA** para gerenciar chamadas, turmas e disciplinas.  
-✔ **Consultas básicas e comandos fundamentais**.  
+- ✔ Explicação dos **subconjuntos SQL com exemplos práticos**.  
+- ✔ **Aplicação do SQL no SGSA** para gerenciar chamadas, turmas e disciplinas.  
+- ✔ **Consultas básicas e comandos fundamentais**.  
 
 ---
 
@@ -50,17 +50,17 @@ O Módulo 1 está dividido em três capítulos principais:
 - **Uso do MySQL Workbench e MySQL Shell**.
 
 📌 **Destaques**:
-✔ **Passo a passo da instalação do MySQL no Linux**.  
-✔ **Demonstração prática do MySQL Workbench e Shell**.  
-✔ **Primeiros comandos SQL para manipulação de dados**.  
+- ✔ **Passo a passo da instalação do MySQL no Linux**.  
+- ✔ **Demonstração prática do MySQL Workbench e Shell**.  
+- ✔ **Primeiros comandos SQL para manipulação de dados**.  
 
 ---
 
 ## 📝 **Recursos Disponíveis**
 
-🔹 **Apostilas e materiais complementares** para reforçar os conceitos.  
-🔹 **Questões de fixação** para cada capítulo, cobrindo teoria e prática.  
-🔹 **Exemplos práticos e desafios para desenvolver habilidades no MySQL**.  
+- 🔹 **Apostilas e materiais complementares** para reforçar os conceitos.  
+- 🔹 **Questões de fixação** para cada capítulo, cobrindo teoria e prática.  
+- 🔹 **Exemplos práticos e desafios para desenvolver habilidades no MySQL**.  
 
 📌 *Para acessar os conteúdos detalhados de cada capítulo, confira os arquivos correspondentes dentro do repositório.*  
 
