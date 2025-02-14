@@ -25,7 +25,7 @@ Cada módulo inclui:
 
 📌 Cada módulo está organizado em pastas específicas, conforme descrito abaixo:
 
-### 🔹 **[Módulo 1: Fundamentos de Banco de Dados](modulo1/)**
+### 🔹 **[Módulo 1: Fundamentos de Banco de Dados](modulo1/README.md)**
 1️⃣ **[Capítulo 1: Introdução aos Bancos de Dados](modulo1/mod1-cap1.md)**  
    - 📌 [Exercícios do Capítulo 1](modulo1/mod1-cap1-exercicios.md)  
 2️⃣ **[Capítulo 2: Introdução à Linguagem SQL](modulo1/mod1-cap2.md)**  
@@ -35,7 +35,7 @@ Cada módulo inclui:
 
 ---
 
-### 🔹 **[Módulo 2: DDL - Data Definition Language](modulo2/)**
+### 🔹 **[Módulo 2: DDL - Data Definition Language](modulo2/README.md)**
 1️⃣ **[Capítulo 1: Criação do Banco de Dados e Tabelas](modulo2/mod2-cap1.md)**  
    - 📌 [Exercícios do Capítulo 1](modulo2/mod2-cap1-exercicios.md)  
 2️⃣ **[Capítulo 2: Definição de Relacionamentos](modulo2/mod2-cap2.md)**  
@@ -45,7 +45,7 @@ Cada módulo inclui:
 
 ---
 
-### 🔹 **[Módulo 3: DML - Data Manipulação de Dados](modulo3/)**
+### 🔹 **[Módulo 3: DML - Data Manipulação de Dados](modulo3/README.md)**
 1️⃣ **[Capítulo 1: Inserção de Dados](modulo3/mod3-cap1.md)**  
    - 📌 [Exercícios do Capítulo 1](modulo3/mod3-cap1-exercicios.md)  
 2️⃣ **[Capítulo 2: Atualização e Remoção de Dados](modulo3/mod3-cap2.md)**  
@@ -55,7 +55,7 @@ Cada módulo inclui:
 
 ---
 
-### 🔹 **[Módulo 4: DQL - Data Query Language](modulo4/)**
+### 🔹 **[Módulo 4: DQL - Data Query Language](modulo4/README.md)**
 1️⃣ **[Capítulo 1: Consultas de Frequência e Chamada](modulo4/mod4-cap1.md)**  
    - 📌 [Exercícios do Capítulo 1](modulo4/mod4-cap1-exercicios.md)  
 2️⃣ **[Capítulo 2: Relatórios de Ocorrências](modulo4/mod4-cap2.md)**  
@@ -65,7 +65,7 @@ Cada módulo inclui:
 
 ---
 
-### 🔹 **[Módulo 5: TCL - Transaction Control Language](modulo5/)**
+### 🔹 **[Módulo 5: TCL - Transaction Control Language](modulo5/README.md)**
 1️⃣ **[Capítulo 1: Transações no SGSA](modulo5/mod5-cap1.md)**  
    - 📌 [Exercícios do Capítulo 1](modulo5/mod5-cap1-exercicios.md)  
 2️⃣ **[Capítulo 2: Prática - Implementando Transações](modulo5/mod5-cap2.md)**  
@@ -73,7 +73,7 @@ Cada módulo inclui:
 
 ---
 
-### 🔹 **[Módulo 6: DCL - Data Control Language](modulo6/)**
+### 🔹 **[Módulo 6: DCL - Data Control Language](modulo6/README.md)**
 1️⃣ **[Capítulo 1: Controle de Acesso](modulo6/mod6-cap1.md)**  
    - 📌 [Exercícios do Capítulo 1](modulo6/mod6-cap1-exercicios.md)  
 2️⃣ **[Capítulo 2: Prática - Configurando Acessos no SGSA](modulo6/mod6-cap2.md)**  
@@ -81,7 +81,7 @@ Cada módulo inclui:
 
 ---
 
-### 🔹 **[Módulo 7: Otimização e Performance](modulo7/)**
+### 🔹 **[Módulo 7: Otimização e Performance](modulo7/README.md)**
 1️⃣ **[Capítulo 1: Melhoria de Performance nas Consultas](modulo7/mod7-cap1.md)**  
    - 📌 [Exercícios do Capítulo 1](modulo7/mod7-cap1-exercicios.md)  
 2️⃣ **[Capítulo 2: Prática - Otimizando Consultas do SGSA](modulo7/mod7-cap2.md)**  
@@ -89,7 +89,7 @@ Cada módulo inclui:
 
 ---
 
-### 🔹 **[Módulo 8: Recursos Avançados](modulo8/)**
+### 🔹 **[Módulo 8: Recursos Avançados](modulo8/README.md)**
 1️⃣ **[Capítulo 1: Stored Procedures e Triggers](modulo8/mod8-cap1.md)**  
    - 📌 [Exercícios do Capítulo 1](modulo8/mod8-cap1-exercicios.md)  
 2️⃣ **[Capítulo 2: Prática - Criando Funcionalidades Avançadas](modulo8/mod8-cap2.md)**  
