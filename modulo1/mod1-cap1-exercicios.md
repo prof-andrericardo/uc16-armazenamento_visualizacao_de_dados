@@ -102,6 +102,11 @@ Associe corretamente os conceitos da **modelagem de banco de dados** com suas de
 
 ### ✅ **Conclusão**
 
-Estas questões foram elaboradas para reforçar o aprendizado do **Capítulo 1 - Introdução aos Bancos de Dados**. Elas cobrem **conceitos fundamentais**, **tipos de bancos de dados**, **importância dos dados na educação**, **modelagem conceitual, lógica e física**, além de explorar **diferentes abordagens para armazenar e gerenciar informações**.
+Estas questões foram elaboradas para reforçar o aprendizado do **Capítulo 1 - Introdução aos Bancos de Dados**. Elas cobrem; 
+- **conceitos fundamentais**
+- **tipos de bancos de dados**
+- **importância dos dados na educação**
+- **modelagem conceitual, lógica e física**
+- além de explorar **diferentes abordagens para armazenar e gerenciar informações**.
 
 📢 **Agora, aplique seus conhecimentos respondendo às questões e discuta os resultados com seus colegas!** 🚀
