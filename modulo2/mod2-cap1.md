@@ -10,11 +10,11 @@
 
 Este capítulo explora os conceitos essenciais para a **criação de bancos de dados e tabelas** no **MySQL**. Você aprenderá:
 
-✅ **O que é um banco de dados e por que ele é essencial**.
- ✅ **Como criar um banco de dados no MySQL e definir corretamente suas tabelas**.
- ✅ **A importância das chaves primárias e estrangeiras para garantir integridade**.
- ✅ **Os diferentes tipos de dados e como escolher o mais adequado para cada campo**.
- ✅ **As melhores práticas para projetar a estrutura inicial de um banco de dados eficiente**.
+- ✅ **O que é um banco de dados e por que ele é essencial**.
+- ✅ **Como criar um banco de dados no MySQL e definir corretamente suas tabelas**.
+- ✅ **A importância das chaves primárias e estrangeiras para garantir integridade**.
+- ✅ **Os diferentes tipos de dados e como escolher o mais adequado para cada campo**.
+- ✅ **As melhores práticas para projetar a estrutura inicial de um banco de dados eficiente**.
 
 Ao final deste capítulo, você será capaz de construir a **base do SGSA (Sistema de Gerenciamento de Sala de Aula)** de forma estruturada e otimizada. 🎓
 
@@ -31,10 +31,10 @@ Um **banco de dados** é uma coleção organizada de informações que podem ser
 Imagine um sistema escolar que precisa armazenar informações sobre alunos, professores, turmas e frequência. Se essas informações fossem guardadas em **planilhas ou documentos de texto**, rapidamente haveria **erros, duplicações e dificuldade de acesso**.
 
 💡 **Com um banco de dados bem projetado, podemos:**
- ✔ Organizar dados de forma eficiente 📊
- ✔ Evitar inconsistências e duplicações ❌
- ✔ Facilitar consultas e geração de relatórios 📑
- ✔ Garantir segurança e controle de acesso 🔒
+- ✔ Organizar dados de forma eficiente 📊
+- ✔ Evitar inconsistências e duplicações ❌
+- ✔ Facilitar consultas e geração de relatórios 📑
+- ✔ Garantir segurança e controle de acesso 🔒
 
 🔎 **Exemplo:**
  No **SGSA**, todas as informações sobre alunos serão armazenadas no banco de dados. Assim, um coordenador poderá consultar rapidamente **quantos alunos estão matriculados em determinada turma** ou **quantos dias um aluno faltou durante o mês**.
@@ -156,8 +156,8 @@ CREATE TABLE Alunos (
 );
 ```
 
-✔ **Cada turma pode ter vários alunos** (relação 1:N).
- ✔ A chave estrangeira **`turma_id`** em **Alunos** referencia **`id_turma`** em **Turmas**.
+- ✔ **Cada turma pode ter vários alunos** (relação 1:N).
+- ✔ A chave estrangeira **`turma_id`** em **Alunos** referencia **`id_turma`** em **Turmas**.
 
 ------
 
@@ -179,9 +179,9 @@ CREATE TABLE Alunos (
 
 ## 🎓 **Conclusão**
 
-✔ **Criamos o banco de dados SGSA e tabelas essenciais.**
- ✔ **Definimos corretamente chaves primárias e estrangeiras.**
- ✔ **Escolhemos os melhores tipos de dados para cada coluna.**
- ✔ **Aprendemos as boas práticas para um banco de dados eficiente.**
+- ✔ **Criamos o banco de dados SGSA e tabelas essenciais.**
+- ✔ **Definimos corretamente chaves primárias e estrangeiras.**
+- ✔ **Escolhemos os melhores tipos de dados para cada coluna.**
+- ✔ **Aprendemos as boas práticas para um banco de dados eficiente.**
 
 Agora que a base está pronta, podemos avançar para **modificar e gerenciar essas tabelas!** 🚀
