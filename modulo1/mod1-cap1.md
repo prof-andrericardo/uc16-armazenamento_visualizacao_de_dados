@@ -49,11 +49,11 @@ Aqui, conseguimos entender que **João é um aluno da turma 3ºC, possui matríc
 
 Os dados são essenciais em diversas áreas, desde a **medicina**, passando pelo **comércio** e chegando à **educação**. Em um ambiente escolar, dados bem armazenados e organizados permitem:
 
-✔ O **registro eficiente da frequência dos alunos** 📅
- ✔ O **controle das notas e desempenho acadêmico** 📊
- ✔ A **identificação de padrões de aprendizado e dificuldades** 🧠
- ✔ O **acompanhamento do histórico de ocorrências disciplinares** ⚠
- ✔ A **automatização da administração escolar** 🏫
+- ✔ O **registro eficiente da frequência dos alunos** 📅
+- ✔ O **controle das notas e desempenho acadêmico** 📊
+- ✔ A **identificação de padrões de aprendizado e dificuldades** 🧠
+- ✔ O **acompanhamento do histórico de ocorrências disciplinares** ⚠
+- ✔ A **automatização da administração escolar** 🏫
 
 🔎 **Exemplo prático no SGSA:**
 
@@ -73,9 +73,9 @@ Os bancos de dados podem ser **classificados** de acordo com a forma como armaze
 
 Os **bancos relacionais** organizam os dados em **tabelas**, como em uma planilha do Excel, onde cada linha representa um **registro** e cada coluna um **atributo**.
 
-✔ Utiliza **chaves primárias e estrangeiras** para relacionar tabelas.
- ✔ Utiliza a linguagem **SQL (Structured Query Language)** para manipular os dados.
- ✔ Exemplo: **MySQL, PostgreSQL, SQL Server**.
+- ✔ Utiliza **chaves primárias e estrangeiras** para relacionar tabelas.
+- ✔ Utiliza a linguagem **SQL (Structured Query Language)** para manipular os dados.
+- ✔ Exemplo: **MySQL, PostgreSQL, SQL Server**.
 
 🔎 **Exemplo prático no SGSA (Estrutura SQL)**
 
@@ -95,9 +95,9 @@ CREATE TABLE Alunos (
 
 ### 📂 **2️⃣ Banco de Dados Não Relacional (NoSQL)**
 
-✔ Estruturado em **documentos JSON, grafos, colunas ou chave-valor**.
- ✔ Mais flexível, sem a necessidade de um esquema rígido de tabelas.
- ✔ Exemplo: **MongoDB, Firebase, Redis**.
+- ✔ Estruturado em **documentos JSON, grafos, colunas ou chave-valor**.
+- ✔ Mais flexível, sem a necessidade de um esquema rígido de tabelas.
+- ✔ Exemplo: **MongoDB, Firebase, Redis**.
 
 🔎 **Exemplo prático: Estrutura JSON no MongoDB**
 
@@ -117,9 +117,9 @@ CREATE TABLE Alunos (
 
 ### ☁ **3️⃣ Banco de Dados em Nuvem**
 
-✔ Permite **armazenamento e acesso remoto**.
- ✔ Alta disponibilidade e escalabilidade.
- ✔ Exemplo: **Google Cloud Firestore, Amazon RDS, Azure SQL**.
+- ✔ Permite **armazenamento e acesso remoto**.
+- ✔ Alta disponibilidade e escalabilidade.
+- ✔ Exemplo: **Google Cloud Firestore, Amazon RDS, Azure SQL**.
 
 🎯 **Quando utilizar?**
  Quando for necessário **acesso de qualquer lugar e alta confiabilidade**.
@@ -132,8 +132,8 @@ Para desenvolver um banco de dados eficiente, seguimos **três etapas principais
 
 ### 📝 **1️⃣ Modelo Conceitual**
 
-✔ Representa **o conceito geral** do sistema, sem detalhes técnicos.
- ✔ Utiliza diagramas como **DER (Diagrama Entidade-Relacionamento)**.
+- ✔ Representa **o conceito geral** do sistema, sem detalhes técnicos.
+- ✔ Utiliza diagramas como **DER (Diagrama Entidade-Relacionamento)**.
 
 📢 **Exemplo: Mapeamento das entidades do SGSA**
 
@@ -147,8 +147,8 @@ Professor (id_professor, nome, disciplina)
 
 ### 🏗 **2️⃣ Modelo Lógico**
 
-✔ Estrutura os dados e define **relacionamentos entre tabelas**.
- ✔ **Ainda não é implementado no banco de dados**.
+- ✔ Estrutura os dados e define **relacionamentos entre tabelas**.
+- ✔ **Ainda não é implementado no banco de dados**.
 
 📢 **Exemplo: Modelo Lógico no SGSA**
 
@@ -182,9 +182,9 @@ CREATE TABLE Alunos (
 
 ## 🎓 **Conclusão**
 
-✔ **Os dados, quando organizados, tornam-se informação útil.**
- ✔ **Existem diferentes tipos de bancos de dados para diferentes necessidades.**
- ✔ **A modelagem do banco segue três etapas essenciais: Conceitual, Lógico e Físico.**
- ✔ **O SGSA utiliza um banco relacional (MySQL) para garantir integridade e eficiência.**
+- ✔ **Os dados, quando organizados, tornam-se informação útil.**
+- ✔ **Existem diferentes tipos de bancos de dados para diferentes necessidades.**
+- ✔ **A modelagem do banco segue três etapas essenciais: Conceitual, Lógico e Físico.**
+- ✔ **O SGSA utiliza um banco relacional (MySQL) para garantir integridade e eficiência.**
 
 Agora que aprofundamos esse conhecimento, podemos prosseguir para os próximos módulos! 🚀
