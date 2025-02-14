@@ -95,8 +95,8 @@ Este material está licenciado sob a **MIT License**. Você pode utilizá-lo liv
 ## 🎓 **Conclusão**
 
 O **Módulo 1 - Fundamentos de Banco de Dados** fornece o alicerce essencial para manipulação de dados e desenvolvimento de sistemas eficientes. Ao final deste módulo, você terá:
-✅ Um sólido entendimento sobre **bancos de dados e modelagem**.  
-✅ Conhecimento prático sobre **SQL e SGBDs**.  
-✅ Capacidade de **instalar, configurar e utilizar o MySQL para gerenciamento de dados**.  
+- ✅ Um sólido entendimento sobre **bancos de dados e modelagem**.  
+- ✅ Conhecimento prático sobre **SQL e SGBDs**.  
+- ✅ Capacidade de **instalar, configurar e utilizar o MySQL para gerenciamento de dados**.  
 
 📢 *Agora é hora de colocar o aprendizado em prática!* 🚀  
