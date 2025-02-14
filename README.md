@@ -1,62 +1,103 @@
-# Unidade Curricular 16 - Armazenamento e Visualização de Dados
+# 📊 UC16 - Armazenamento e Visualização de Dados
 
-![License](https://img.shields.io/badge/license-educational-blue) ![MySQL](https://img.shields.io/badge/MySQL-8.0.41-blue) ![Debian](https://img.shields.io/badge/Debian-12.9-orange) ![Status](https://img.shields.io/badge/status-active-success)
+![GitHub repo size](https://img.shields.io/github/repo-size/prof-andrericardo/uc16-armazenamento_visualizacao_de_dados?style=for-the-badge)
+![GitHub contributors](https://img.shields.io/github/contributors/prof-andrericardo/uc16-armazenamento_visualizacao_de_dados?color=blue&style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/prof-andrericardo/uc16-armazenamento_visualizacao_de_dados?style=for-the-badge)
+![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
 
-## Sobre a Unidade Curricular
-A **Unidade Curricular 16 - Armazenamento e Visualização de Dados** tem como objetivo capacitar os alunos do **Ensino Médio Técnico em Informática** do **Colégio Victorino** a compreenderem e aplicarem técnicas de armazenamento, manipulação e visualização de dados. Durante esta unidade, serão abordados conceitos fundamentais de bancos de dados relacionais, modelagem conceitual e práticas com SQL, utilizando ferramentas modernas como MySQL 8.0.41 e MySQL Workbench.
-
-### Objetivos da Unidade
-- 🛠️ Aplicar técnicas de desenvolvimento de software voltadas ao armazenamento e visualização de dados.
-- 📊 Modelar bancos de dados relacionais para sistemas reais.
-- 💻 Executar comandos SQL para criação, manipulação e consulta de dados.
-- 🧑‍💻 Desenvolver habilidades práticas no uso de ferramentas de gerenciamento de bancos de dados.
-
-## Informações Institucionais
-- **🏫 Colégio Victorino**
-- **📚 Ensino Médio Técnico em Informática**
-- **📂 Unidade Curricular 16 - Armazenamento e Visualização de Dados**
-- **👨‍🏫 Professor**: André Ricardo
-- **✉️ Contato**: [andre.ricardo@colegiovictorino.com.br](mailto:andre.ricardo@colegiovictorino.com.br)
+📍 **Colégio Victorino**  
+👨‍🏫 **Professor:** André Ricardo  
+✉️ **Contato:** [andre.ricardo@colegiovictorino.com.br](mailto:andre.ricardo@colegiovictorino.com.br)  
 
 ---
 
-## Estrutura do Repositório
-Este repositório está organizado de acordo com os capítulos e aulas que compõem a Unidade Curricular 16. Cada capítulo contém um arquivo `README.md` com uma introdução ao conteúdo das aulas associadas.
+## 📚 Sobre o Repositório
 
-### Sumário
+Este repositório contém todo o material didático da disciplina **UC16 - Armazenamento e Visualização de Dados**, abordando desde os fundamentos de bancos de dados até consultas avançadas em **MySQL**. O conteúdo está estruturado em módulos e capítulos organizados para facilitar o aprendizado dos alunos.
 
-- [README.md](./README.md) (Você está aqui)
-- **📖 Capítulo 1**: Introdução ao Armazenamento e Visualização de Dados
-  - [Aula 01: Contextualização e Relevância](capitulo01/aula01.md)
-  - [Aula 02: Conceitos Fundamentais de Banco de Dados](capitulo01/aula02.md)
-  - [Aula 03: Introdução ao MySQL](capitulo01/aula03.md)
-  - [Aula 04: Criação de Tabelas no MySQL](capitulo01/aula04.md)
-  - [Aula 05: Inserção de Dados e Consultas Simples](capitulo01/aula05.md)
-  - [Aula 06: Consolidação e Revisão](capitulo01/aula06.md)
-  - [Aula 07: Conclusão do Capítulo 1](capitulo01/aula07.md)
+Cada módulo inclui:
+- 📖 **Capítulos teóricos** explicando os conceitos detalhadamente.
+- 📝 **Exercícios práticos** para fixação dos conteúdos.
 
 ---
 
-## Como Utilizar Este Repositório
-1. Clone ou faça o download deste repositório:
+## 📂 Estrutura do Repositório
+
+📌 Cada módulo está organizado em pastas específicas, conforme descrito abaixo:
+
+### 🔹 **[Módulo 1: Fundamentos de Banco de Dados](modulo1/)**
+1️⃣ **[Capítulo 1: Introdução aos Bancos de Dados](modulo1/mod1-cap1.md)**  
+   - 📌 [Exercícios do Capítulo 1](modulo1/mod1-cap1-exercicios.md)  
+2️⃣ **[Capítulo 2: Introdução à Linguagem SQL](modulo1/mod1-cap2.md)**  
+   - 📌 [Exercícios do Capítulo 2](modulo1/mod1-cap2-exercicios.md)  
+3️⃣ **[Capítulo 3: Introdução ao SGBD MySQL](modulo1/mod1-cap3.md)**  
+   - 📌 [Exercícios do Capítulo 3](modulo1/mod1-cap3-exercicios.md)  
+
+---
+
+### 🔹 **[Módulo 2: DDL - Data Definition Language](modulo2/)**
+1️⃣ **[Capítulo 1: Criação do Banco de Dados e Tabelas](modulo2/mod2-cap1.md)**  
+   - 📌 [Exercícios do Capítulo 1](modulo2/mod2-cap1-exercicios.md)  
+2️⃣ **[Capítulo 2: Definição de Relacionamentos](modulo2/mod2-cap2.md)**  
+   - 📌 [Exercícios do Capítulo 2](modulo2/mod2-cap2-exercicios.md)  
+3️⃣ **[Capítulo 3: Prática - Criando o Banco de Dados SGSA](modulo2/mod2-cap3.md)**  
+   - 📌 [Exercícios do Capítulo 3](modulo2/mod2-cap3-exercicios.md)  
+
+---
+
+### 🔹 **[Módulo 3: DML - Data Manipulação de Dados](modulo3/)**
+1️⃣ **[Capítulo 1: Inserção de Dados](modulo3/mod3-cap1.md)**  
+   - 📌 [Exercícios do Capítulo 1](modulo3/mod3-cap1-exercicios.md)  
+2️⃣ **[Capítulo 2: Atualização e Remoção de Dados](modulo3/mod3-cap2.md)**  
+   - 📌 [Exercícios do Capítulo 2](modulo3/mod3-cap2-exercicios.md)  
+3️⃣ **[Capítulo 3: Prática - Manipulando Dados no SGSA](modulo3/mod3-cap3.md)**  
+   - 📌 [Exercícios do Capítulo 3](modulo3/mod3-cap3-exercicios.md)  
+
+---
+
+### 🔹 **[Módulo 4: DQL - Data Query Language](modulo4/)**
+1️⃣ **[Capítulo 1: Consultas de Frequência e Chamada](modulo4/mod4-cap1.md)**  
+   - 📌 [Exercícios do Capítulo 1](modulo4/mod4-cap1-exercicios.md)  
+2️⃣ **[Capítulo 2: Relatórios de Ocorrências](modulo4/mod4-cap2.md)**  
+   - 📌 [Exercícios do Capítulo 2](modulo4/mod4-cap2-exercicios.md)  
+3️⃣ **[Capítulo 3: Prática - Criando Relatórios no SGSA](modulo4/mod4-cap3.md)**  
+   - 📌 [Exercícios do Capítulo 3](modulo4/mod4-cap3-exercicios.md)  
+
+---
+
+### 🔹 **[Módulo 5: TCL - Transaction Control Language](modulo5/)**
+1️⃣ **[Capítulo 1: Transações no SGSA](modulo5/mod5-cap1.md)**  
+   - 📌 [Exercícios do Capítulo 1](modulo5/mod5-cap1-exercicios.md)  
+2️⃣ **[Capítulo 2: Prática - Implementando Transações](modulo5/mod5-cap2.md)**  
+   - 📌 [Exercícios do Capítulo 2](modulo5/mod5-cap2-exercicios.md)  
+
+---
+
+### 🔹 **[Módulo 6: DCL - Data Control Language](modulo6/)**
+1️⃣ **[Capítulo 1: Controle de Acesso](modulo6/mod6-cap1.md)**  
+   - 📌 [Exercícios do Capítulo 1](modulo6/mod6-cap1-exercicios.md)  
+2️⃣ **[Capítulo 2: Prática - Configurando Acessos no SGSA](modulo6/mod6-cap2.md)**  
+   - 📌 [Exercícios do Capítulo 2](modulo6/mod6-cap2-exercicios.md)  
+
+---
+
+### 🔹 **[Módulo 7: Otimização e Performance](modulo7/)**
+1️⃣ **[Capítulo 1: Melhoria de Performance nas Consultas](modulo7/mod7-cap1.md)**  
+   - 📌 [Exercícios do Capítulo 1](modulo7/mod7-cap1-exercicios.md)  
+2️⃣ **[Capítulo 2: Prática - Otimizando Consultas do SGSA](modulo7/mod7-cap2.md)**  
+   - 📌 [Exercícios do Capítulo 2](modulo7/mod7-cap2-exercicios.md)  
+
+---
+
+### 🔹 **[Módulo 8: Recursos Avançados](modulo8/)**
+1️⃣ **[Capítulo 1: Stored Procedures e Triggers](modulo8/mod8-cap1.md)**  
+   - 📌 [Exercícios do Capítulo 1](modulo8/mod8-cap1-exercicios.md)  
+2️⃣ **[Capítulo 2: Prática - Criando Funcionalidades Avançadas](modulo8/mod8-cap2.md)**  
+   - 📌 [Exercícios do Capítulo 2](modulo8/mod8-cap2-exercicios.md)  
+
+---
+
+## 🚀 Como Contribuir
+1. Clone o repositório:  
    ```bash
    git clone https://github.com/prof-andrericardo/uc16-armazenamento_visualizacao_de_dados.git
-   ```
-2. Navegue até o diretório de interesse para acessar os materiais de cada aula.
-3. Siga as orientações contidas nos arquivos `README.md` para entender os conceitos e realizar as atividades práticas.
-
----
-
-## Tecnologias Utilizadas
-- 🐬 **MySQL 8.0.41**
-- 🖥️ **MySQL Workbench 8.0.41**
-- 🐧 **Debian 12.9** (ambiente de máquina virtual para as práticas)
-
----
-
-## Licença
-Este repositório é de uso educacional e foi desenvolvido exclusivamente para as aulas da Unidade Curricular 16 do Colégio Victorino. A reprodução para outros fins deve ser autorizada pelo professor responsável.
-
----
-
-Para dúvidas ou sugestões, entre em contato pelo e-mail [andre.ricardo@colegiovictorino.com.br](mailto:andre.ricardo@colegiovictorino.com.br).
