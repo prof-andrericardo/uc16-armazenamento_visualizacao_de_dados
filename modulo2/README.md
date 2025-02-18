@@ -68,7 +68,7 @@ Este módulo está dividido em três capítulos principais:
 
 📂 [Capítulo 3 - Prática: Criando o Banco de Dados do SGSA](Capítulo%203%20-%20Prática%20Criando%20o%20Banco%20de%20Dados%20do%20SGSA.md)
 
-📂 [Exercícios 3 - Prática: Criando o Banco de Dados do SGSA](Exercícios%203%20-%20Prática%20Criando%20o%20Banco%20de%20Dados%20do%20SGSA.md)
+📂 [Exercícios 3 - Prática: Criando o Banco de Dados do SGSA](Exercícios%203%20-%20Prática%3A%20Criando%20o%20Banco%20de%20Dados%20do%20SGSA.md)
 
 ------
 
