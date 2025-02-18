@@ -24,10 +24,10 @@ Este módulo está dividido em três capítulos principais:
 - ✔ **Boas práticas na modelagem de tabelas** para garantir eficiência e escalabilidade.
 - ✔ **Exemplos aplicados ao SGSA**, com foco na construção do sistema escolar.
 
-📂 **[Capítulo 1 - Criação do Banco de Dados e Tabelas]**("Capítulo 1 - Criação do Banco de Dados e Tabelas.md")
+📂 [Capítulo 1 - Criação do Banco de Dados e Tabelas](Capítulo%201%20-%20Criação%20do%20Banco%20de%20Dados%20e%20Tabelas.md)
 
-📂 **[Exercícios 1 - Criação do Banco de Dados e Tabelas](Exercícios 1 - Criação do Banco de Dados e Tabelas.md)**
-
+📂 [Exercícios 1 - Criação do Banco de Dados e Tabelas](Exercícios%201%20-%20Criação%20do%20Banco%20de%20Dados%20e%20Tabelas.md)
+ 
 ------
 
 ### 📖 **Capítulo 2 - Definição de Relacionamentos**
@@ -45,9 +45,9 @@ Este módulo está dividido em três capítulos principais:
 - ✔ **Aplicação no SGSA**: modelagem das relações entre **Alunos, Turmas, Professores e Disciplinas**.
 - ✔ **Dicas sobre integridade referencial** e como evitar inconsistências nos dados.
 
-📂 [**Capítulo 2 - Definição de Relacionamentos](./Capítulo 2 - Definição de Relacionamentos.md)**
+📂 [Capítulo 2 - Definição de Relacionamentos](Capítulo%202%20-%20Definição%20de%20Relacionamentos.md)
 
-📂 [**Exercícios 2 - Definição de Relacionamentos](Exercícios 2 - Definição de Relacionamentos.md)**
+📂 [Exercícios 2 - Definição de Relacionamentos](Exercícios%202%20-%20Definição%20de%20Relacionamentos.md)
 
 ------
 
@@ -66,9 +66,9 @@ Este módulo está dividido em três capítulos principais:
 - ✔ **Implementação de relacionamento N:M usando tabelas intermediárias**.
 - ✔ **Utilização de tipos de dados adequados para otimização do armazenamento**.
 
-📂 **[Capítulo 3 - Prática: Criando o Banco de Dados do SGSA](Capítulo 3 - Prática Criando o Banco de Dados do SGSA.md)**
+📂 [Capítulo 3 - Prática: Criando o Banco de Dados do SGSA](Capítulo%203%20-%20Prática%20Criando%20o%20Banco%20de%20Dados%20do%20SGSA.md)
 
-📂 **[Exercícios 3 - Prática: Criando o Banco de Dados do SGSA](Exercícios 3 - Prática Criando o Banco de Dados do SGSA.md)**
+📂 [Exercícios 3 - Prática: Criando o Banco de Dados do SGSA](Exercícios%203%20-%20Prática%20Criando%20o%20Banco%20de%20Dados%20do%20SGSA.md)
 
 ------
 
