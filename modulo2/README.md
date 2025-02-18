@@ -45,9 +45,9 @@ Este módulo está dividido em três capítulos principais:
 - ✔ **Aplicação no SGSA**: modelagem das relações entre **Alunos, Turmas, Professores e Disciplinas**.
 - ✔ **Dicas sobre integridade referencial** e como evitar inconsistências nos dados.
 
-📂 **[Capítulo 2 - Definição de Relacionamentos](Capítulo 2 - Definição de Relacionamentos.md)**
+📂 [**Capítulo 2 - Definição de Relacionamentos](Capítulo 2 - Definição de Relacionamentos.md)**
 
-📂 **[Exercícios 2 - Definição de Relacionamentos](Exercícios 2 - Definição de Relacionamentos.md)**
+📂 [**Exercícios 2 - Definição de Relacionamentos](Exercícios 2 - Definição de Relacionamentos.md)**
 
 ------
 
