@@ -24,7 +24,7 @@ Este módulo está dividido em três capítulos principais:
 - ✔ **Boas práticas na modelagem de tabelas** para garantir eficiência e escalabilidade.
 - ✔ **Exemplos aplicados ao SGSA**, com foco na construção do sistema escolar.
 
-📂 **[Capítulo 1 - Criação do Banco de Dados e Tabelas](Capítulo 1 - Criação do Banco de Dados e Tabelas.md)**
+📂 **[Capítulo 1 - Criação do Banco de Dados e Tabelas]**("Capítulo 1 - Criação do Banco de Dados e Tabelas.md")
 
 📂 **[Exercícios 1 - Criação do Banco de Dados e Tabelas](Exercícios 1 - Criação do Banco de Dados e Tabelas.md)**
 
