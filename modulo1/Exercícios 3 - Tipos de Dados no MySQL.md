@@ -75,14 +75,14 @@
 
 Associe os conceitos aos exemplos corretos:
 
-| Conceitos             | Opção 1            | Opção 2               | Opção 3   | Opção 4 | Opção 5 | Opção 6 |
-| --------------------- | ------------------ | --------------------- | --------- | ------- | ------- | ------- |
-| Tipo Numérico         | INT                | DECIMAL               | FLOAT     | -       | -       | -       |
-| Tipo de Texto         | VARCHAR            | CHAR                  | TEXT      | -       | -       | -       |
-| Tipo de Data/Hora     | DATE               | DATETIME              | TIMESTAMP | -       | -       | -       |
-| Quando Usar DECIMAL   | Valores monetários | Notas com precisão    | -         | -       | -       | -       |
-| Quando Usar VARCHAR   | Nome de usuário    | Endereço de e-mail    | -         | -       | -       | -       |
-| Quando Usar TIMESTAMP | Registro de logs   | Controle de auditoria | -         | -       | -       | -       |
+| Conceitos             | DATE | INT  | Nome de usuário | Registro de logs | Valores monetários | VARCHAR |
+| --------------------- | ---- | ---- | --------------- | ---------------- | ------------------ | ------- |
+| Tipo Numérico         |      |      |                 |                  |                    |         |
+| Tipo de Texto         |      |      |                 |                  |                    |         |
+| Tipo de Data/Hora     |      |      |                 |                  |                    |         |
+| Quando Usar DECIMAL   |      |      |                 |                  |                    |         |
+| Quando Usar VARCHAR   |      |      |                 |                  |                    |         |
+| Quando Usar TIMESTAMP |      |      |                 |                  |                    |         |
 
 ------
 
