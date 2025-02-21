@@ -26,12 +26,17 @@ Cada módulo inclui:
 📌 Cada módulo está organizado em pastas específicas, conforme descrito abaixo:
 
 ### 🔹 **[Módulo 1: Fundamentos de Banco de Dados](modulo1/README.md)**
-1️⃣ **[Capítulo 1: Introdução aos Bancos de Dados](modulo1/mod1-cap1.md)**  
-   - 📌 [Exercícios do Capítulo 1](modulo1/mod1-cap1-exercicios.md)  
-2️⃣ **[Capítulo 2: Introdução à Linguagem SQL](modulo1/mod1-cap2.md)**  
-   - 📌 [Exercícios do Capítulo 2](modulo1/mod1-cap2-exercicios.md)  
-3️⃣ **[Capítulo 3: Introdução ao SGBD MySQL](modulo1/mod1-cap3.md)**  
-   - 📌 [Exercícios do Capítulo 3](modulo1/mod1-cap3-exercicios.md)  
+   - 1️⃣ **[Capítulo 1: Introdução aos Bancos de Dados](modulo1/Cap%C3%ADtulo%201%20-%20Introdu%C3%A7%C3%A3o%20aos%20Bancos%20de%20Dados.md)**
+   - 📌 [Exercícios do Capítulo 1](modulo1/Exerc%C3%ADcios%201%20-%20Introdu%C3%A7%C3%A3o%20aos%20Bancos%20de%20Dados.md)
+   - 2️⃣ **[Capítulo 2 - Modelagem Relacional](modulo1/Cap%C3%ADtulo%202%20-%20Modelagem%20Relacional.md)**
+   - 📌 [Exercícios do Capítulo 2](modulo1/Exerc%C3%ADcios%202%20-%20Modelagem%20Relacional.md)
+   - 3️⃣ **[Capítulo 3 - Tipos de Dados no MySQL](modulo1/Cap%C3%ADtulo%203%20-%20Tipos%20de%20Dados%20no%20MySQL.md)**
+   - 📌 [Exercícios do Capítulo 3](modulo1/Exerc%C3%ADcios%203%20-%20Tipos%20de%20Dados%20no%20MySQL.md)
+   - 4 **[Módulo 4 - Introdução à Linguagem SQL](Cap%C3%ADtulo%204%20-%20Introdu%C3%A7%C3%A3o%20%C3%A0%20Linguagem%20SQL.md)**
+   - 📌 [Exercícios do Capítulo 4](modulo1/Exerc%C3%ADcios%204%20-%20Introdu%C3%A7%C3%A3o%20%C3%A0%20Linguagem%20SQL.md)
+   - 5 **[Capítulo 5 - Introdução ao SGBD MySQL.md](modulo1/Cap%C3%ADtulo%205%20-%20Introdu%C3%A7%C3%A3o%20ao%20SGBD%20MySQL.md)**
+   - 📌 [Exercícios do Capítulo 5](modulo1/Exerc%C3%ADcios%205%20-%20Introdu%C3%A7%C3%A3o%20ao%20SGBD%20MySQL.md)
+
 
 ---
 
