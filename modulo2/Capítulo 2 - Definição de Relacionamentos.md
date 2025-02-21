@@ -26,7 +26,9 @@ CREATE TABLE Alunos (
 );
 ```
 
-✔️ **Garante unicidade** dentro da tabela. ✔️ **Impede valores nulos**. ✔️ **Otimiza buscas e organização dos dados**.
+✔️ **Garante unicidade** dentro da tabela.
+✔️ **Impede valores nulos**.
+✔️ **Otimiza buscas e organização dos dados**.
 
 ------
 
@@ -50,11 +52,51 @@ CREATE TABLE Alunos (
 );
 ```
 
-✔️ **Garante que cada aluno esteja vinculado a uma turma existente**. ✔️ **Impede referências inválidas**. ✔️ **Facilita consultas e cruzamento de informações**.
+✔️ **Garante que cada aluno esteja vinculado a uma turma existente**.
+✔️ **Impede referências inválidas**.
+✔️ **Facilita consultas e cruzamento de informações**.
 
 ------
 
-## 📌 2. Tipos de Relacionamento entre Tabelas
+## 📌 2. Modificando Estruturas com `ALTER TABLE`
+
+Às vezes, após a criação das tabelas, precisamos **modificar sua estrutura** para adicionar novas colunas, remover atributos ou até alterar constraints. Para isso, utilizamos o comando `ALTER TABLE`.
+
+### 🔹 **Adicionando uma Nova Coluna**
+
+```sql
+ALTER TABLE Alunos ADD COLUMN endereco VARCHAR(255);
+```
+
+✔️ Adiciona uma nova coluna `endereco` à tabela `Alunos`.
+
+### 🔹 **Removendo uma Coluna**
+
+```sql
+ALTER TABLE Alunos DROP COLUMN telefone;
+```
+
+✔️ Remove a coluna `telefone` da tabela `Alunos`.
+
+### 🔹 **Modificando o Tipo de Dado de uma Coluna**
+
+```sql
+ALTER TABLE Alunos MODIFY COLUMN nome VARCHAR(150) NOT NULL;
+```
+
+✔️ Modifica a coluna `nome` para permitir até 150 caracteres.
+
+### 🔹 **Adicionando uma Chave Estrangeira Após a Criação da Tabela**
+
+```sql
+ALTER TABLE Alunos ADD CONSTRAINT fk_turma FOREIGN KEY (turma_id) REFERENCES Turmas(id_turma) ON DELETE CASCADE;
+```
+
+✔️ Define a chave estrangeira `turma_id` na tabela `Alunos` para referenciar `Turmas(id_turma)`.
+
+------
+
+## 📌 3. Tipos de Relacionamento entre Tabelas
 
 Os bancos de dados relacionais seguem padrões de relacionamento entre tabelas. No SGSA, utilizamos principalmente:
 
@@ -116,7 +158,7 @@ CREATE TABLE Turmas_Disciplinas (
 
 ------
 
-## 📌 3. Integridade Referencial e Constraints
+## 📌 4. Integridade Referencial e Constraints
 
 As constraints garantem a consistência dos dados. No SGSA, utilizamos:
 
@@ -138,6 +180,8 @@ CREATE TABLE Professores (
 ## 🏁 Conclusão
 
 Definir corretamente os relacionamentos é fundamental para garantir a integridade dos dados e a eficiência do SGSA. Ao utilizar **chaves primárias e estrangeiras**, garantimos que as informações estejam sempre consistentes, reduzindo erros e otimizando as consultas.
+
+Além disso, o comando `ALTER TABLE` permite modificar tabelas já existentes, tornando o banco de dados **flexível e adaptável a mudanças futuras**.
 
 > 🔜 No próximo capítulo, exploraremos **boas práticas e otimização na definição de tabelas**! 🚀
 
