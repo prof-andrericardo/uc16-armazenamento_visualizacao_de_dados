@@ -74,14 +74,14 @@
 
 Associe os conceitos aos exemplos corretos:
 
-| Conceitos          | Opção 1                                 | Opção 2                                 | Opção 3              | Opção 4            | Opção 5 | Opção 6 |
-| ------------------ | --------------------------------------- | --------------------------------------- | -------------------- | ------------------ | ------- | ------- |
-| Entidade           | Aluno                                   | Professor                               | Turma                | Disciplina         | -       | -       |
-| Atributo           | Nome                                    | Matrícula                               | Código da disciplina | Data de nascimento | -       | -       |
-| Relacionamento 1:N | Um professor leciona várias turmas      | Uma turma pertence a um único professor | -                    | -                  | -       | -       |
-| Relacionamento N:M | Um aluno pode cursar várias disciplinas | Uma disciplina pode ter vários alunos   | -                    | -                  | -       | -       |
-| Chave Primária     | ID do aluno                             | Código da disciplina                    | -                    | -                  | -       | -       |
-| Chave Estrangeira  | ID do aluno na tabela de notas          | Código da disciplina na tabela de notas | -                    | -                  | -       | -       |
+|                Conceitos                | Entidade | Relacionamento N:M | Atributo | Chave Primária | Registro de Chamada | Ocorrências |
+| :-------------------------------------: | :------: | :----------------: | :------: | :------------: | ------------------- | :---------: |
+|                 Usuário                 |          |                    |          |                |                     |             |
+| Um aluno pode cursar várias disciplinas |          |                    |          |                |                     |             |
+|           Data de nascimento            |          |                    |          |                |                     |             |
+|               ID do aluno               |          |                    |          |                |                     |             |
+|               Advertência               |          |                    |          |                |                     |             |
+|                Presença                 |          |                    |          |                |                     |             |
 
 ------
 
