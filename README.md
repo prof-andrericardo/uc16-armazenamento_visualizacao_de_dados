@@ -24,16 +24,16 @@ Cada módulo inclui:
 
 📌 Conceitos básicos, modelagem relacional, tipos de dados e SQL.
 
-- 📖 [Capítulo 1: Introdução aos Bancos de Dados]()
-- 📖 [Capítulo 2: Modelagem Relacional]()
-- 📖 [Capítulo 3: Tipos de Dados no MySQL]()
-- 📖 [Capítulo 4: Introdução à Linguagem SQL]()
-- 📖 [Capítulo 5: Introdução ao SGBD MySQL]()
-- 📝 [Exercícios 1 - Introdução aos Bancos de Dados]()
-- 📝 [Exercícios 2 - Modelagem Relacional]()
-- 📝 [Exercícios 3 - Tipos de Dados no MySQL]()
-- 📝 [Exercícios 4 - Introdução à Linguagem SQL]()
-- 📝 [Exercícios 5 - Introdução ao SGBD MySQL]()
+- 📖 [Capítulo 1: Introdução aos Bancos de Dados](modulo01/Cap%C3%ADtulo%201%20-%20Introdu%C3%A7%C3%A3o%20aos%20Bancos%20de%20Dados.md)
+- 📖 [Capítulo 2: Modelagem Relacional](modulo01/Cap%C3%ADtulo%202%20-%20Modelagem%20Relacional.md)
+- 📖 [Capítulo 3: Tipos de Dados no MySQL](modulo01/Cap%C3%ADtulo%203%20-%20Tipos%20de%20Dados%20no%20MySQL.md)
+- 📖 [Capítulo 4: Introdução à Linguagem SQL](modulo01/Cap%C3%ADtulo%204%20-%20Introdu%C3%A7%C3%A3o%20%C3%A0%20Linguagem%20SQL.md)
+- 📖 [Capítulo 5: Introdução ao SGBD MySQL](modulo01/Cap%C3%ADtulo%205%20-%20Introdu%C3%A7%C3%A3o%20ao%20SGBD%20MySQL.md)
+- 📝 [Exercícios 1 - Introdução aos Bancos de Dados](modulo01/Exerc%C3%ADcios%201%20-%20Introdu%C3%A7%C3%A3o%20aos%20Bancos%20de%20Dados.md)
+- 📝 [Exercícios 2 - Modelagem Relacional](modulo01/Exerc%C3%ADcios%202%20-%20Modelagem%20Relacional.md)
+- 📝 [Exercícios 3 - Tipos de Dados no MySQL](modulo01/Exerc%C3%ADcios%203%20-%20Tipos%20de%20Dados%20no%20MySQL.md)
+- 📝 [Exercícios 4 - Introdução à Linguagem SQL](modulo01/Exerc%C3%ADcios%204%20-%20Introdu%C3%A7%C3%A3o%20%C3%A0%20Linguagem%20SQL.md)
+- 📝 [Exercícios 5 - Introdução ao SGBD MySQL](modulo01/Exerc%C3%ADcios%205%20-%20Introdu%C3%A7%C3%A3o%20ao%20SGBD%20MySQL.md)
 
 ------
 
@@ -41,12 +41,12 @@ Cada módulo inclui:
 
 📌 Criação de bancos de dados, tabelas e relacionamentos.
 
-- 📖 [Capítulo 1: Criação do Banco de Dados e Tabelas]()
-- 📖 [Capítulo 2: Definição de Relacionamentos]()
-- 📖 [Capítulo 3: Prática - Criando o Banco de Dados SGSA]()
-- 📝 [Exercícios 1 - Criação do Banco de Dados e Tabelas]()
-- 📝 [Exercícios 2 - Definição de Relacionamentos]()
-- 📝 [Exercícios 3 - Prática: Criando o Banco de Dados do SGSA]()
+- 📖 [Capítulo 1: Criação do Banco de Dados e Tabelas](modulo02/Cap%C3%ADtulo%201%20-%20Cria%C3%A7%C3%A3o%20do%20Banco%20de%20Dados%20e%20Tabelas.md)
+- 📖 [Capítulo 2: Definição de Relacionamentos](modulo02/Cap%C3%ADtulo%202%20-%20Defini%C3%A7%C3%A3o%20de%20Relacionamentos.md)
+- 📖 [Capítulo 3: Prática - Criando o Banco de Dados SGSA](modulo02/Cap%C3%ADtulo%203%20-%20Pr%C3%A1tica%3A%20Criando%20o%20Banco%20de%20Dados%20do%20SGSA.md)
+- 📝 [Exercícios 1 - Criação do Banco de Dados e Tabelas](modulo02/Exerc%C3%ADcios%201%20-%20Cria%C3%A7%C3%A3o%20do%20Banco%20de%20Dados%20e%20Tabelas.md)
+- 📝 [Exercícios 2 - Definição de Relacionamentos](modulo02/Exerc%C3%ADcios%202%20-%20Defini%C3%A7%C3%A3o%20de%20Relacionamentos.md)
+- 📝 [Exercícios 3 - Prática: Criando o Banco de Dados do SGSA](modulo02/Exerc%C3%ADcios%203%20-%20Pr%C3%A1tica%3A%20Criando%20o%20Banco%20de%20Dados%20do%20SGSA.md)
 
 ------
 
