@@ -50,6 +50,19 @@ Cada módulo inclui:
 
 ------
 
+### 🔹 **Módulo 3: DML - Data Manipulação de Dados**
+
+📌Manipulação de dados, tabelas e relacionamentos.
+
+- 📖 [Capítulo 1: Inserção de Dados](modulo03/Cap%C3%ADtulo%201%3A%20Inser%C3%A7%C3%A3o%20de%20Dados.md)
+- 📖 [Capítulo 2: Atualização e Remoção de Dados](modulo03/Cap%C3%ADtulo%202%3A%20Atualiza%C3%A7%C3%A3o%20e%20Remo%C3%A7%C3%A3o%20de%20Dados.md)
+- 📖 [Capítulo 3: Prática - Manipulando Dados no SGSA](modulo03/Cap%C3%ADtulo%203%3A%20Manipulando%20Dados%20no%20SGSA.md)
+- 📝 [Exercícios do Capítulo 1](modulo03/Exerc%C3%ADcios%20do%20Cap%C3%ADtulo%201.md)
+- 📝 [Exercícios do Capítulo 2](modulo03/Exerc%C3%ADcios%20do%20Cap%C3%ADtulo%202.md)
+- 📝 [Exercícios do Capítulo 3](modulo03/Exerc%C3%ADcios%20do%20Cap%C3%ADtulo%203.md)
+
+------
+
 ## 🚀 Como Contribuir
 
 1. Clone o repositório:
