@@ -1,6 +1,6 @@
 -- Criação do banco de dados SGSA
-CREATE DATABASE SGSA;
-USE SGSA;
+CREATE DATABASE IF NOT EXISTS db_sgsa;
+USE db_sgsa;
 
 -- Tabela de Turmas
 CREATE TABLE Turmas (
