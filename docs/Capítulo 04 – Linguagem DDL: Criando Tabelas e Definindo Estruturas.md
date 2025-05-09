@@ -73,6 +73,7 @@ CREATE DATABASE sgsa;
 -- Usando o banco de dados criado
 USE sgsa;
 ```
+> 🔍 O comando `USE sgsa;` informa ao MySQL que todas as próximas operações (como criação de tabelas ou inserção de dados) devem ocorrer dentro do banco chamado `sgsa`. É como escolher uma “pasta de trabalho” ativa. Se esquecermos de usar esse comando, o sistema pode dar erro ou executar os comandos no banco errado.
 
 ------
 
