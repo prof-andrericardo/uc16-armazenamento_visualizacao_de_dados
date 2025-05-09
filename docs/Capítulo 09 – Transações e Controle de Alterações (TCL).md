@@ -238,6 +238,6 @@ Sistemas reais como o SGSA não podem correr riscos: um erro de digitação, uma
 
 ------
 
-#### ⏪ [Capítulo Anterior](<Capítulo 08 – Otimização de Consultas e Índices.md>)
+#### ⏪ [Capítulo Anterior](<./Capítulo 08 – Otimização de Consultas e Índices.md>)
 #### 🏠 [Início](../README.md)
-#### ⏩ [Próximo Capítulo](<Capítulo 10 – Segurança e Controle de Acesso no MySQL.md>)
+#### ⏩ [Próximo Capítulo](<./Capítulo 10 – Segurança e Controle de Acesso no MySQL (DCL).md>)

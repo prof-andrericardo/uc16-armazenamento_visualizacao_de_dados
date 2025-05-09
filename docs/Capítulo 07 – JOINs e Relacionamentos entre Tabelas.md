@@ -270,6 +270,6 @@ O `JOIN` transforma o banco em um sistema de informação verdadeiramente conect
 
 ------
 
-#### ⏪ [Capítulo Anterior](<Capítulo 06 – Consultando Dados com SELECT e Filtros.md>)
+#### ⏪ [Capítulo Anterior](<./Capítulo 06 – SELECT e filtros (DQL).md>)
 #### 🏠 [Início](../README.md)
-#### ⏩ [Próximo Capítulo](<Capítulo 08 – Otimização de Consultas e Índices.md>)
+#### ⏩ [Próximo Capítulo](<./Capítulo 08 – Otimização de Consultas e Índices.md>)

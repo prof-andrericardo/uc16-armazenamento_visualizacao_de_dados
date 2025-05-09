@@ -266,6 +266,6 @@ Aprender a otimizar consultas é um marco na formação do profissional de banco
 
 ------
 
-#### ⏪ [Capítulo Anterior](<Capítulo 07 – JOINs e Relacionamentos entre Tabelas.md>)
+#### ⏪ [Capítulo Anterior](<./Capítulo 07 – JOINs e Relacionamentos entre Tabelas.md>)
 #### 🏠 [Início](../README.md)
-#### ⏩ [Próximo Capítulo](<Capítulo 09 – Segurança e Controle de Acesso no Banco.md>)
+#### ⏩ [Próximo Capítulo](<./Capítulo 09 – Transações e Controle de Alterações (TCL).md>)

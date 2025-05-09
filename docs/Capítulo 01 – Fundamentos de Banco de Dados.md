@@ -179,5 +179,5 @@ Entender o que é um banco de dados e como um SGBD funciona é o primeiro passo 
 
 ------
 
-#### 🏠 [Início](../README.md)
-#### ⏩ [Próximo Capítulo](<Capítulo 02 – Modelagem Conceitual e Normalização até 3FN.md>)
+#### 🏠 [Início](./README.md)
+#### ⏩ [Próximo Capítulo](<Capítulo 02 – Modelagem Conceitual e Normalização até a 3ª Forma Normal (3FN).md>)

@@ -251,6 +251,6 @@ Entender e dominar a DDL é o primeiro passo para transformar seu planejamento e
 
 ------
 
-#### ⏪ [Capítulo Anterior](<Capítulo 02 – Modelagem Conceitual e Normalização até 3FN.md>)
+#### ⏪ [Capítulo Anterior](<./Capítulo 03 – Tipos de Dados no SQL.md>)
 #### 🏠 [Início](../README.md)
-#### ⏩ [Próximo Capítulo](<Capítulo 04 – Manipulando Dados com INSERT, UPDATE e DELETE.md>)
+#### ⏩ [Próximo Capítulo](<./Capítulo 05 – Manipulando Dados.md>)

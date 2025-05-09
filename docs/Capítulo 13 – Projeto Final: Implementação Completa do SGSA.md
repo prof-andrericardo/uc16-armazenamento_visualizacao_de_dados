@@ -235,5 +235,5 @@ Crie um relatório SQL que mostre, para cada turma, o nome do professor que mais
 
 ------
 
-#### ⏪ [Capítulo Anterior](<Capítulo 11 – Funções SQL e Subconsultas.md>)
-#### 🏠 [Início](../README.md)
+#### ⏪ [Capítulo Anterior](<./Capítulo 12 – Ferramentas e Boas Práticas.mdd>)
+#### 🏠 [Início](./README.md)

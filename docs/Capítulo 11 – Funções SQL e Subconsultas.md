@@ -285,6 +285,6 @@ As funções e subconsultas transformam dados brutos em **informações valiosas
 
 ------
 
-#### ⏪ [Capítulo Anterior](<Capítulo 10 – Segurança e Controle de Acesso no MySQL.md>)
+#### ⏪ [Capítulo Anterior](<./Capítulo 10 – Segurança e Controle de Acesso no MySQL (DCL).md>)
 #### 🏠 [Início](../README.md)
-#### ⏩ [Próximo Capítulo](<Capítulo 12 – Projeto Final: Implementação Completa do SGSA.md>)
+#### ⏩ [Próximo Capítulo](<./Capítulo 12 – Ferramentas e Boas Práticas.md>)

@@ -134,6 +134,6 @@ Um banco de dados eficiente depende tanto da **sua estrutura técnica** quanto d
 
 ------
 
-#### ⏪ [Capítulo Anterior](<Capítulo 11 – Funções SQL e Subconsultas.md>)
+#### ⏪ [Capítulo Anterior](<./Capítulo 11 – Funções SQL e Subconsultas.md>)
 #### 🏠 [Início](../README.md)
-#### ⏩ [Próximo Capítulo](<Capítulo 13 – Projeto Final: Implementação Completa do SGSA.md>)
+#### ⏩ [Próximo Capítulo](<./Capítulo 13 – Projeto Final: Implementação Completa do SGSA.md>)

@@ -293,6 +293,6 @@ A DQL transforma a base de dados em fonte de conhecimento. Com o `SELECT` e os f
 
 ------
 
-#### ⏪ [Capítulo Anterior](<Capítulo 05 – Manipulando Dados com INSERT, UPDATE e DELETE.md>)
+#### ⏪ [Capítulo Anterior](<./Capítulo 05 – Manipulando Dados.md>)
 #### 🏠 [Início](../README.md)
 #### ⏩ [Próximo Capítulo](<./Capítulo 07 – JOINs e Relacionamentos entre Tabelas.md>)
