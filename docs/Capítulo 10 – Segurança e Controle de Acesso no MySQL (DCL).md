@@ -219,7 +219,7 @@ Controlar o acesso ao banco é **mais do que proteger dados** — é garantir qu
 ------
 
 ```markdown
-#### ⏪ [Capítulo Anterior](<Capítulo 9 – Transações com COMMIT, ROLLBACK e SAVEPOINT.md>)
+#### ⏪ [Capítulo Anterior](<Capítulo 09 – Transações com COMMIT, ROLLBACK e SAVEPOINT.md>)
 #### 🏠 [Início](../README.md)
 #### ⏩ [Próximo Capítulo](<Capítulo 11 – Funções SQL e Subconsultas.md>)
 ```

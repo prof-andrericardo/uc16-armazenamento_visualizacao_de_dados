@@ -265,7 +265,7 @@ Modelar bem é prever o futuro do banco de dados. Através da normalização, ev
 ------
 
 ```markdown
-#### ⏪ [Capítulo Anterior](<Capítulo 1 – Fundamentos de Banco de Dados.md>)
+#### ⏪ [Capítulo Anterior](<Capítulo 01 – Fundamentos de Banco de Dados.md>)
 #### 🏠 [Início](../README.md)
-#### ⏩ [Próximo Capítulo](<Capítulo 3 – Linguagem DDL e Criação de Tabelas.md>)
+#### ⏩ [Próximo Capítulo](<Capítulo 03 – Linguagem DDL e Criação de Tabelas.md>)
 ```

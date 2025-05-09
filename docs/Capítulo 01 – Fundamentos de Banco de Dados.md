@@ -174,12 +174,12 @@ Entender o que é um banco de dados e como um SGBD funciona é o primeiro passo 
 
 - 📘 [MySQL – Documentação Oficial](https://dev.mysql.com/doc/)
 - 🎥 [Curso em Vídeo – Banco de Dados – Gustavo Guanabara](https://www.youtube.com/playlist?list=PLHz_AreHm4dmGuLII3tsvryMMD7VgcT7x)
-- 📘 [Livro: Sistemas de Banco de Dados – Elmasri & Navathe]
+- 📘 [Livro: Sistemas de Banco de Dados – Elmasri & Navathe](https://www.amazon.com.br/Sistemas-banco-dados-Ramez-Elmasri/dp/8579360854)
 - 💬 [Stack Overflow em Português – SQL Básico](https://pt.stackoverflow.com/questions/tagged/sql)
 
 ------
 
 ```markdown
 #### 🏠 [Início](../README.md)
-#### ⏩ [Próximo Capítulo](<Capítulo 2 – Modelagem Conceitual e Normalização até 3FN.md>)
+#### ⏩ [Próximo Capítulo](<Capítulo 02 – Modelagem Conceitual e Normalização até 3FN.md>)
 ```

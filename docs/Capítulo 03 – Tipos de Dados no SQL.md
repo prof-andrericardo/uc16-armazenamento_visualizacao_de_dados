@@ -201,7 +201,7 @@ Cada campo do banco precisa ser pensado com cuidado. Um tipo de dado mal escolhi
 ------
 
 ```markdown
-#### ⏪ [Capítulo Anterior](<Capítulo 2 – Modelagem Conceitual e Normalização até 3FN.md>)
+#### ⏪ [Capítulo Anterior](<Capítulo 02 – Modelagem Conceitual e Normalização até 3FN.md>)
 #### 🏠 [Início](../README.md)
-#### ⏩ [Próximo Capítulo](<Capítulo 4 – Linguagem DDL: Criando Tabelas e Definindo Estruturas.md>)
+#### ⏩ [Próximo Capítulo](<Capítulo 04 – Linguagem DDL: Criando Tabelas e Definindo Estruturas.md>)
 ```

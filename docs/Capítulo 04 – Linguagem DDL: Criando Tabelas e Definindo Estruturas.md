@@ -252,7 +252,7 @@ Entender e dominar a DDL é o primeiro passo para transformar seu planejamento e
 ------
 
 ```markdown
-#### ⏪ [Capítulo Anterior](<Capítulo 2 – Modelagem Conceitual e Normalização até 3FN.md>)
+#### ⏪ [Capítulo Anterior](<Capítulo 02 – Modelagem Conceitual e Normalização até 3FN.md>)
 #### 🏠 [Início](../README.md)
-#### ⏩ [Próximo Capítulo](<Capítulo 4 – Manipulando Dados com INSERT, UPDATE e DELETE.md>)
+#### ⏩ [Próximo Capítulo](<Capítulo 04 – Manipulando Dados com INSERT, UPDATE e DELETE.md>)
 ```
