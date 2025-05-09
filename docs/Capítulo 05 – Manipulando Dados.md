@@ -266,8 +266,6 @@ A DML é o motor que movimenta os dados no SGSA. É com ela que a escola registr
 
 ------
 
-```markdown
 #### ⏪ [Capítulo Anterior](<Capítulo 04 – Linguagem DDL: Criando Tabelas e Definindo Estruturas.md>)
 #### 🏠 [Início](../README.md)
 #### ⏩ [Próximo Capítulo](<Capítulo 06 – Consultando Dados com SELECT e Filtros.md>)
-```

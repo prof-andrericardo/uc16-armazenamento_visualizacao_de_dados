@@ -285,8 +285,6 @@ As funções e subconsultas transformam dados brutos em **informações valiosas
 
 ------
 
-```markdown
 #### ⏪ [Capítulo Anterior](<Capítulo 10 – Segurança e Controle de Acesso no MySQL.md>)
 #### 🏠 [Início](../README.md)
 #### ⏩ [Próximo Capítulo](<Capítulo 12 – Projeto Final: Implementação Completa do SGSA.md>)
-```
