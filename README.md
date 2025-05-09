@@ -83,15 +83,15 @@ uc16-sgsa/
 
 | Capítulo | Título                                                                                                                                  | Conteúdo Central                       | Trimestre |
 | -------- | --------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- | --------- |
-| 1        | [Fundamentos de Banco de Dados](<./docs/Capítulo 1 – Fundamentos de Banco de Dados.md>)                                                 | Conceitos, SGBD, tabelas               | 1º        |
-| 2        | [Modelagem Conceitual e Normalização até 3FN](<./docs/Capítulo 2 – Modelagem Conceitual e Normalização até a 3ª Forma Normal (3FN).md>) | Entidade-relacionamento, 3FN           | 1º        |
-| 3        | [Tipos de Dados no MySQL](<./docs/Capítulo 3 – Tipos de Dados no SQL.md>)                                                               | INT, VARCHAR, ENUM, DATE               | 1º        |
-| 4        | [Linguagem DDL: Criando Tabelas e Definindo Estruturas](<./docs/Capítulo 4 – Linguagem DDL: Criando Tabelas e Definindo Estruturas.md>) | CREATE, ALTER, DROP                    | 2º        |
+| 1        | [Fundamentos de Banco de Dados](<./docs/Capítulo 01 – Fundamentos de Banco de Dados.md>)                                                 | Conceitos, SGBD, tabelas               | 1º        |
+| 2        | [Modelagem Conceitual e Normalização até 3FN](<./docs/Capítulo 02 – Modelagem Conceitual e Normalização até a 3ª Forma Normal (3FN).md>) | Entidade-relacionamento, 3FN           | 1º        |
+| 3        | [Tipos de Dados no MySQL](<./docs/Capítulo 03 – Tipos de Dados no SQL.md>)                                                               | INT, VARCHAR, ENUM, DATE               | 1º        |
+| 4        | [Linguagem DDL: Criando Tabelas e Definindo Estruturas](<./docs/Capítulo 04 – Linguagem DDL: Criando Tabelas e Definindo Estruturas.md>) | CREATE, ALTER, DROP                    | 2º        |
 | 5        | [Manipulando Dados](<./docs/Capítulo 5 – Manipulando Dados.md>)                                                                         | DML                                    | 2º        |
-| 6        | [SELECT e Filtros (DQL)](<./docs/Capítulo 6 – SELECT e filtros (DQL).md>)                                                               | DQL                                    | 2º        |
-| 7        | [JOINs e Relacionamentos entre Tabelas](<./docs/Capítulo 7 – JOINs e Relacionamentos entre Tabelas.md>)                                 | INNER, LEFT, multi-JOINs               | 2º        |
-| 8        | [Otimização de Consultas e Índices](<./docs/Capítulo 8 – Otimização de Consultas e Índices.md>)                                         | EXPLAIN, CREATE INDEX                  | 2º        |
-| 9        | [Transações e Controle de Alterações (TCL)](<./docs/Capítulo 9 – Transações e Controle de Alterações (TCL).md>)                         | TCL                                    | 3º        |
+| 6        | [SELECT e Filtros (DQL)](<./docs/Capítulo 06 – SELECT e filtros (DQL).md>)                                                               | DQL                                    | 2º        |
+| 7        | [JOINs e Relacionamentos entre Tabelas](<./docs/Capítulo 07 – JOINs e Relacionamentos entre Tabelas.md>)                                 | INNER, LEFT, multi-JOINs               | 2º        |
+| 8        | [Otimização de Consultas e Índices](<./docs/Capítulo 08 – Otimização de Consultas e Índices.md>)                                         | EXPLAIN, CREATE INDEX                  | 2º        |
+| 9        | [Transações e Controle de Alterações (TCL)](<./docs/Capítulo 09 – Transações e Controle de Alterações (TCL).md>)                         | TCL                                    | 3º        |
 | 10       | [Segurança e Controle de Acesso no MySQL (DCL)](<./docs/Capítulo 10 – Segurança e Controle de Acesso no MySQL (DCL).md>)                | DCL: GRANT, REVOKE, USERS              | 3º        |
 | 11       | [Funções SQL e Subconsultas](<./docs/Capítulo 11 – Funções SQL e Subconsultas.md>)                                                      | COUNT, AVG, SUBQUERY, HAVING           | 3º        |
 | 12       | [Ferramentas e Boas Práticas](<./docs/Capítulo 12 – Ferramentas e Boas Práticas.md>)                                                    | Workbench, versionamento, padronização | 3º        |
